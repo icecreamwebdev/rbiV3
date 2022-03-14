@@ -8,7 +8,7 @@ import { faC, faComment, faHeart } from '@fortawesome/free-solid-svg-icons';
 const FooterFeed = () => {
 
 
-    const posts = [{img: 'safetyBackground.jpeg', comments: 2, likes: 12, caption: 'This is my first post of a test account'},{img: 'safetyBackground.jpeg', comments: 0, likes: 1, caption: 'This is my second post of a test account, used to test out api calls and design'}]
+    const posts = [{img: 'safetyBackground.jpeg', comments: 0, likes: 1, caption: 'This is my first post of a test account'},{img: 'safetyBackground.jpeg', comments: 0, likes: 0, caption: 'This is my second post of a test account, used to test out api calls and design'}]
     const commentIcon = <FontAwesomeIcon icon={faComment} />
     const likeIcon = <FontAwesomeIcon icon={faHeart} />
 
