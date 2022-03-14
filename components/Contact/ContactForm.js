@@ -21,7 +21,7 @@ const ContactForm = () => {
 
 
 
-<div className='flex flex-wrap md:flex-nowrap w-full p-10 mt-7 mb-7 bg-white justify-center items-middle max-'>
+<div className='flex flex-wrap md:flex-nowrap w-full p-12 mt-7 mb-7 bg-white justify-center items-middle max-'>
 
 
         <div className='flex-col flex  w-full md:mr-10'>
