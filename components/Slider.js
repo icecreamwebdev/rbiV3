@@ -30,7 +30,7 @@ export default class AutoPlay extends Component {
 
 
     return (
-      <div className='overflow-hidden text-white bg-primary w-full pb-0 '>
+      <div className='overflow-hidden text-white bg-primary w-full pb-7 '>
         <Slider {...settings}>
           <div className='flex-col justify-center text-center h-100'>
               <span className='flex justify-center items-center h-20 '>
