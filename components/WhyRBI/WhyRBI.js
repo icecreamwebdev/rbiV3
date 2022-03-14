@@ -14,7 +14,7 @@ const WhyRBI = () => {
 
 
             <div className='flex flex-wrap  rounded-md w-full justify-center mt-10 text-primary'>
-                <div className='flex basis-1/2 md:basis-1/3 group hover:bg-alt p-4 pt-8 text-primary'>
+                <div className='flex basis-1/2 md:basis-1/3 group hover:bg-alt p-5 pt-6 text-primary'>
 
                 <span className='flex w-[9px] h-[9px] md:w-[10px] md:h-[10px] bg-alt group-hover:bg-white  border-gray-800  shrink-0 bg-alt rounded mr-4 mt-[8px] md:mt-[7px]'></span>
                     <div className='flex-col'>
@@ -23,7 +23,7 @@ const WhyRBI = () => {
                     </div>
                 </div>
 
-                <div className='flex basis-1/2 md:basis-1/3 hover:bg-alt group p-4 pt-8'>
+                <div className='flex basis-1/2 md:basis-1/3 hover:bg-alt group p-5 pt-6'>
 
                 <span className='flex w-[9px] h-[9px] md:w-[10px] md:h-[10px] shrink-0 bg-alt group-hover:bg-white  border-gray-800  rounded mr-4 mt-[8px] md:mt-[7px]'></span>
                     <div className='flex-col'>
@@ -31,7 +31,7 @@ const WhyRBI = () => {
                     <p className='flex font-light text-xs'>Working with our 50+ in-house roster and our extensive third-party agency connections we can source talent for no additional fee.</p>
                     </div>
                 </div>
-                <div className='flex basis-1/2 md:basis-1/3 hover:bg-alt group p-4 pt-8'>
+                <div className='flex basis-1/2 md:basis-1/3 hover:bg-alt group p-5 pt-6'>
 
                 <span className='flex w-[9px] h-[9px] md:w-[10px] md:h-[10px] bg-alt group-hover:bg-white  border-gray-800  shrink-0 bg-alt rounded mr-4 mt-[8px] md:mt-[7px]'></span>
                     <div className='flex-col'>
@@ -40,7 +40,7 @@ const WhyRBI = () => {
                     </div>
                 </div>
 
-                <div className='flex basis-1/2 md:basis-1/3 hover:bg-alt group p-4 pt-8'>
+                <div className='flex basis-1/2 md:basis-1/3 hover:bg-alt group p-5 pt-6'>
 
                 <span className='flex w-[9px] h-[9px] md:w-[10px] md:h-[10px] bg-alt group-hover:bg-white  border-gray-800  shrink-0 bg-alt rounded mr-4 mt-[8px] md:mt-[7px]'></span>
                     <div className='flex-col'>
@@ -49,7 +49,7 @@ const WhyRBI = () => {
                     </div>
                 </div>
 
-                <div className='flex basis-1/2 md:basis-1/3 hover:bg-alt group p-4 pt-8'>
+                <div className='flex basis-1/2 md:basis-1/3 hover:bg-alt group p-5 pt-6'>
 
                 <span className='flex w-[9px] h-[9px] md:w-[10px] md:h-[10px] bg-alt group-hover:bg-white  border-gray-800  shrink-0 bg-alt rounded mr-4 mt-[8px] md:mt-[7px]'></span>
                     <div className='flex-col'>
@@ -58,7 +58,7 @@ const WhyRBI = () => {
                     </div>
                 </div>
 
-                <div className='flex basis-1/2 md:basis-1/3 hover:bg-alt group p-4 pt-8'>
+                <div className='flex basis-1/2 md:basis-1/3 hover:bg-alt group p-5 pt-6'>
 
                 <span className='flex w-[9px] h-[9px] md:w-[10px] md:h-[10px] bg-alt group-hover:bg-white  border-gray-800  shrink-0 bg-alt rounded mr-4 mt-[8px] md:mt-[7px]'></span>
                     <div className='flex-col'>
