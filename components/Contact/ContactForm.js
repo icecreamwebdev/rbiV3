@@ -47,7 +47,7 @@ const ContactForm = () => {
 
                 <div className='flex-col-reverse jusmd:flex-col w-full mt-7 md:mt-2'>
                 <div className='flex w-full text-center uppercase text-tiny font-semibold'>
-                    <h2 className=' w-full text-center  mb-4 md:mb-0 mt-2 md:mt-0'><span className='text-gray-500 mr-2'>{info}</span>contact information</h2>
+                    <h2 className=' w-full text-center  mb-4 md:mb-0 mt-2 md:mt-0'><span className='text-gray-500 pr-2'>{info}</span>contact information</h2>
 
                     </div>
                     <div className='flex w-full items-center justify-center mt-2 '>
