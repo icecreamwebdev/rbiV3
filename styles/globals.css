@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.videoOuter{
+
+  width:100%;
+  height:58%;
+  background-image: url('../public/safetyBackground.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  z-index:1000;
+}
+
+.videoOuter video{
+
+  width:100%;
+  height:100% !important ;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 768px) {
+  .videoOuter{
+    height:60%;
+  }
+}
+
+.slick-dots{
+
+  bottom:-45px !important;
+}
+
+.slick-dots li button:before {
+
+  color:white !important;
+  opacity:0.9 !important;
+}
+
+.slick-dots li button:before {
+
+  font-size:10px !important;
+
+}
+
+.slick-dots li.slick-active button:before{
+
+  color:orange !important;
+}
