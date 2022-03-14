@@ -10,7 +10,7 @@ const Contact = () => {
             
             <div className='w-20 flex justfiy-center h-0.5 rounded bg-primary m-auto mt-0 pt-0'></div>
 
-            <p className='text-center text-sm text-primary opacity-100 font-light mt-5 mb-7'>Whether your'e a brand or an influencer, please get in touch, we'd love to work together.</p>
+            <p className='text-center text-sm text-primary opacity-100 font-light mt-5 mb-7'>Whether you're a brand or an influencer, please get in touch, we'd love to work together.</p>
 
                 <ContactForm />
         </div>
