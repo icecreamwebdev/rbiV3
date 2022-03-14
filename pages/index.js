@@ -12,6 +12,7 @@ import Founders from '../components/Founders/Founders'
 import Contact from '../components/Contact/Contact'
 import Footer from '../components/Footer/Footer'
 import Instagram from 'instagram-web-api';
+import Policies from '../components/Policies/Policies'
 
 
 export default function Home() {
@@ -29,6 +30,7 @@ export default function Home() {
       <Founders />
       <Contact />
       <Footer/>
+      <Policies />
     </div>
   )
 }

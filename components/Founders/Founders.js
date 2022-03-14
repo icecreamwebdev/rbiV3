@@ -12,8 +12,6 @@ const Founders = () => {
             <div className='w-20 flex justfiy-center h-0.5 rounded bg-gray-300 m-auto mt-0 pt-0'></div>
 
             <p className='text-center text-sm text-primary opacity-100 font-light mt-5'>“They’re the best and we love them” - RBI team members, who definitely weren’t forced to say that...</p>
-
-
           
 
             <div className='flex justify-around  flex-wrap w-full mb-10 md:w-[650px]'>

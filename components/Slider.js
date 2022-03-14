@@ -13,16 +13,16 @@ export default class AutoPlay extends Component {
     
     const settings = {
       infinite: true,
-      slidesToShow: width< 768 ? 2 : 3,
+      slidesToShow: width< 768 ? 2 : (width< 1100) ? 3 : 4,
       slidesToScroll: 1,
       autoplay: true,
-      speed: 2000,
+      speed: 500, 
       arrows:false,
       dots:false,
-      autoplaySpeed: 2000,
+      autoplaySpeed: 500,
     };
 
-    const imageWidth = width< 768 ? '100' : '140'
+    const imageWidth = width< 768 ? '85' : '110'
     
 
 
@@ -34,10 +34,10 @@ export default class AutoPlay extends Component {
         <Slider {...settings}>
           <div className='flex-col justify-center text-center h-100'>
               <span className='flex justify-center items-center h-20 '>
-            <img src='/brands/brand1.png' width={imageWidth} height='50' objectFit='contain'/>
+            <img src='/brands/brand1.png' width={imageWidth} height='40' objectFit='contain'/>
             </span>
             <span className='flex justify-center items-center h-20 '>
-            <img src='/brands/brand2.png' width={imageWidth} height='50' objectFit='contain'/>
+            <img src='/brands/brand2.png' width={imageWidth} height='40' objectFit='contain'/>
             </span>
           </div>
           <div className='flex-col justify-center text-center h-max'>
@@ -45,58 +45,58 @@ export default class AutoPlay extends Component {
             <img src='/brands/brand3.png' width={imageWidth} height='50' objectFit='contain'/>
             </span>
             <span className='flex justify-center items-center  h-20 ' >
-            <img src='/brands/brand4.png' width={imageWidth} height='50' objectFit='contain'/>
+            <img src='/brands/brand4.png' width={imageWidth} height='40' objectFit='contain'/>
             </span>
           </div>
 
           <div className='flex-col justify-center text-center h-100'>
               <span className='flex justify-center items-center h-20 '>
-            <img src='/brands/brand5.png' width={imageWidth} height='50' objectFit='contain'/>
+            <img src='/brands/brand5.png' width={imageWidth} height='40' objectFit='contain'/>
             </span>
             <span className='flex justify-center items-center h-20 '>
-            <img src='/brands/brand12.png' width={imageWidth} height='50' objectFit='contain'/>
+            <img src='/brands/brand12.png' width={imageWidth} height='40' objectFit='contain'/>
             </span>
           </div>
           <div className='flex-col justify-center text-center h-max'>
               <span className='flex justify-center items-center h-20 w-full '>
-            <img src='/brands/brand7.png' width={imageWidth} height='50' objectFit='contain'/>
+            <img src='/brands/brand7.png' width={imageWidth} height='40' objectFit='contain'/>
             </span>
             <span className='flex justify-center items-center  h-20 ' >
-            <img src='/brands/brand8.png' width={imageWidth} height='50' objectFit='contain'/>
+            <img src='/brands/brand8.png' width={imageWidth} height='40' objectFit='contain'/>
             </span>
           </div>
 
           <div className='flex-col justify-center text-center h-100'>
               <span className='flex justify-center items-center h-20 '>
-            <img src='/brands/brand9.png' width={imageWidth} height='50' objectFit='contain'/>
+            <img src='/brands/brand9.png' width={imageWidth} height='40' objectFit='contain'/>
             </span>
             <span className='flex justify-center items-center h-20 '>
-            <img src='/brands/brand10.png' width={imageWidth} height='50' objectFit='contain'/>
+            <img src='/brands/brand10.png' width={imageWidth} height='40' objectFit='contain'/>
             </span>
           </div>
           <div className='flex-col justify-center text-center h-max'>
               <span className='flex justify-center items-center h-20 w-full '>
-            <img src='/brands/brand11.png' width={imageWidth} height='50' objectFit='contain'/>
+            <img src='/brands/brand11.png' width={imageWidth} height='40' objectFit='contain'/>
             </span>
             <span className='flex justify-center items-center  h-20 ' >
-            <img src='/brands/brand14.png' width={imageWidth} height='50' objectFit='contain'/>
+            <img src='/brands/brand14.png' width={imageWidth} height='40' objectFit='contain'/>
             </span>
           </div>
 
           <div className='flex-col justify-center text-center h-100'>
               <span className='flex justify-center items-center h-20 '>
-            <img src='/brands/brand13.png' width={imageWidth} height='50' objectFit='contain'/>
+            <img src='/brands/brand13.png' width={imageWidth} height='40' objectFit='contain'/>
             </span>
             <span className='flex justify-center items-center h-20 '>
-            <img src='/brands/brand6.png' width={imageWidth} height='50' objectFit='contain'/>
+            <img src='/brands/brand6.png' width={imageWidth} height='40' objectFit='contain'/>
             </span>
           </div>
           <div className='flex-col justify-center text-center h-max'>
               <span className='flex justify-center items-center h-20 w-full '>
-            <img src='/brands/brand15.png' width={imageWidth} height='50' objectFit='contain'/>
+            <img src='/brands/brand15.png' width={imageWidth} height='40' objectFit='contain'/>
             </span>
             <span className='flex justify-center items-center  h-20 ' >
-            <img src='/brands/brand16.png' width={imageWidth} height='50' objectFit='contain'/>
+            <img src='/brands/brand16.png' width={imageWidth} height='40' objectFit='contain'/>
             </span>
           </div>
 
@@ -114,6 +114,62 @@ export default class AutoPlay extends Component {
             </span>
             <span className='flex justify-center items-center  h-20 ' >
             <img src='/brands/brand20.png' width={imageWidth} height='50' objectFit='contain'/>
+            </span>
+          </div>
+          <div className='flex-col justify-center text-center h-max'>
+              <span className='flex justify-center items-center h-20 w-full '>
+            <img src='/brands/brand33.png' width={imageWidth} height='50' objectFit='contain'/>
+            </span>
+            <span className='flex justify-center items-center  h-20 ' >
+            <img src='/brands/brand34.png' width={imageWidth} height='50' objectFit='contain'/>
+            </span>
+          </div>
+          <div className='flex-col justify-center text-center h-max'>
+              <span className='flex justify-center items-center h-20 w-full '>
+            <img src='/brands/brand21.png' width={imageWidth} height='50' objectFit='contain'/>
+            </span>
+            <span className='flex justify-center items-center  h-20 ' >
+            <img src='/brands/brand22.png' width={imageWidth} height='50' objectFit='contain'/>
+            </span>
+          </div>
+          <div className='flex-col justify-center text-center h-max'>
+              <span className='flex justify-center items-center h-20 w-full '>
+            <img src='/brands/brand23.png' width={imageWidth} height='50' objectFit='contain'/>
+            </span>
+            <span className='flex justify-center items-center  h-20 ' >
+            <img src='/brands/brand24.png' width={imageWidth} height='50' objectFit='contain'/>
+            </span>
+          </div>
+          <div className='flex-col justify-center text-center h-max'>
+              <span className='flex justify-center items-center h-20 w-full '>
+            <img src='/brands/brand25.png' width={imageWidth} height='50' objectFit='contain'/>
+            </span>
+            <span className='flex justify-center items-center  h-20 ' >
+            <img src='/brands/brand26.png' width={imageWidth} height='50' objectFit='contain'/>
+            </span>
+          </div>
+          <div className='flex-col justify-center text-center h-max'>
+              <span className='flex justify-center items-center h-20 w-full '>
+            <img src='/brands/brand27.png' width={imageWidth} height='50' objectFit='contain'/>
+            </span>
+            <span className='flex justify-center items-center  h-20 ' >
+            <img src='/brands/brand28.png' width={imageWidth} height='50' objectFit='contain'/>
+            </span>
+          </div>
+          <div className='flex-col justify-center text-center h-max'>
+              <span className='flex justify-center items-center h-20 w-full '>
+            <img src='/brands/brand35.png' width='90' height='30' objectFit='contain'/>
+            </span>
+            <span className='flex justify-center items-center  h-20 ' >
+            <img src='/brands/brand30.png' width={imageWidth} height='50' objectFit='contain'/>
+            </span>
+          </div>
+          <div className='flex-col justify-center text-center h-max'>
+              <span className='flex justify-center items-center h-20 w-full '>
+            <img src='/brands/brand31.png' width={imageWidth} height='50' objectFit='contain'/>
+            </span>
+            <span className='flex justify-center items-center  h-20 ' >
+            <img src='/brands/brand32.png' width={imageWidth} height='50' objectFit='contain'/>
             </span>
           </div>
 

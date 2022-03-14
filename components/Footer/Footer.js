@@ -45,7 +45,7 @@ const Footer = () => {
 
                             <li className='mb-1'><span className='text-gray-400'>{locate}</span><span className='text-gray-400 ml-2'> Address:</span> International House, Holbourn Viaduct, London</li>
                             <li className='mb-1'><span className='text-gray-400'>{phone}</span><span className='text-gray-400 ml-2'>Phone:</span>070000000000</li>
-                            <li className='mb-1 flex-wrap text-mini'><span className='text-gray-400'>{email}</span><span className='text-gray-400 ml-2'> Email:</span>hello@runbyinfluencers.com</li>
+                            <li className='mb-1 flex-wrap text-xtiny md:text-mini lg:text-xtiny'><span className='text-gray-400'>{email}</span><span className='text-gray-400 ml-2'> Email:</span>hello@runbyinfluencers.com</li>
 
                         </ul>
 
@@ -55,7 +55,6 @@ const Footer = () => {
                         <div className='flex-col p-2 pr-0 flex lg:p-6  grow md:w-1/4 m:min-w-1/4 w-full text-white shrink-0 md:text-left text-center  md:mt-0 mt-7'>
                         <h2 className='mb-4 uppercase text-sm border-b font-base border-gray-600 pb-2'>Insta feed</h2>
                             
-                        
                             <FooterFeed />
 
                             
