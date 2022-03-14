@@ -63,7 +63,7 @@ const ContactForm = () => {
 
 <div className='flex-col w-full '>
                 <div className='flex w-full text-left uppercase text-tiny font-semibold text-primary'>
-                    <h2 className=' w-full text-center md:text-center mb-4 md:mb-0 mt-10 md:mt-0'><span className='text-gray-500 mr-2'>{clock}</span>business hours</h2>
+                    <h2 className=' w-full text-center md:text-center mb-4 md:mb-0 mt-10 md:mt-0'><span className='text-gray-500 pr-2'>{clock}</span>business hours</h2>
 
                     </div>
                     <div className='flex w-full items-center mt-2 justify-center '>
