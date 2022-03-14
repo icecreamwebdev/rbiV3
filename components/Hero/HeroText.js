@@ -33,8 +33,8 @@ const HeroText = () => {
             setIndex(i => i + 1);
             counter ++;
             }
-          }, 180);
-        }, 1000);
+          }, 150);
+        }, 800);
         return () => clearInterval(timer);
       }, []);
     
@@ -51,7 +51,7 @@ const HeroText = () => {
       <div className='absolute w-full top-[270px] md:top-[280px]'>
         <h1 className='flex h-20 items-center justify-center text-4xl md:text-5xl'>
 
-            {index > 11 ? stillText : rotatingText
+            {(index > 11 || index == 0) ? stillText : rotatingText
     }
               {/* <span className='font-light text-white uppercase'>We</span>
             <span className='text-alt pl-3 leading-tight drop-shadow-sm font-semibold uppercase'>

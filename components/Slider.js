@@ -16,10 +16,10 @@ export default class AutoPlay extends Component {
       slidesToShow: width< 768 ? 2 : (width< 1100) ? 3 : 4,
       slidesToScroll: 1,
       autoplay: true,
-      speed: 500, 
+      speed: 2000, 
       arrows:false,
       dots:false,
-      autoplaySpeed: 500,
+      autoplaySpeed: 2000,
     };
 
     const imageWidth = width< 768 ? '85' : '110'
