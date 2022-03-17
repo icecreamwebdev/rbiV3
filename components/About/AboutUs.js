@@ -108,7 +108,7 @@ const AboutUs = () => {
 
 
 
-<div className='flex w-full h-full bg-primary p-2 mr-2 justify-center' onMouseEnter={windowSize < 769? null : debouncedHandleMouseEnter1}
+<div className='flex w-full h-full bg-primary p-2 md:mr-2 justify-center' onMouseEnter={windowSize < 769? null : debouncedHandleMouseEnter1}
       onMouseLeave={windowSize < 769? null : handlOnMouseLeave1} onClick={windowSize < 769? handleFLip2 : null}>
 <ReactCardFlip isFlipped={isFlipped2} flipDirection="vertical">
 
@@ -122,8 +122,8 @@ const AboutUs = () => {
     <Image src='/founder1.png' width='250' height='250' objectFit='cover'/>
     <div className='absolute w-full h-full bg-alt text-white text-center justify-center flex-col items-center flex m-auto' >
         <h2 className='font-bold mb-2'>Lucy Harper</h2>
-        <p className='font-light'>Hello this is some text</p>
-        <p className='font-light'>'some quote'</p>
+        <p className='font-light text-sm md:text-tiny px-2'>Hello this is some text</p>
+        <p className='font-light text-xs md:text-tiny px-2'>'some quote'</p>
     
     
     </div>
