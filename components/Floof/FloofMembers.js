@@ -149,7 +149,7 @@ Privy to a ‘lick’ of wine if mum accidentally leaves in reach.
 
     </div> */}
 
-<h2 className='text-2xl flex justify-center mt-20 pb-2 font-base uppercase h-min  pt-5 text-alt '>RBI FLoofs</h2>
+<h2 className='text-2xl flex justify-center lg:mt-20 mt-10 pb-2 font-base uppercase h-min  pt-5 text-alt '>RBI FLoofs</h2>
 
 <FloofSlider width={width} />
      

@@ -25,7 +25,7 @@ export default class FloofSlider extends Component {
       speed: 800,
     };
 
-    const imageWidth = width< 558 ? '90' : '140'
+    const imageWidth = width< 558 ? '105' : '140'
     
 
 
