@@ -21,10 +21,10 @@ const Socials = () => {
         <h1 className='text-2xl flex justify-center font-base uppercase h-min pb-3 pt-5'>Our Socials</h1>
         <div className='w-20 flex justfiy-center h-0.5 rounded bg-gray-300 m-auto mt-0 pt-0'></div>
 
-        <p className='text-center text-sm text-primary opacity-100 font-light mt-5'>We’re on social media! You can find us on Instagram, LinkedIn, Pinterest and Twitter and see what we’ve been up to.</p>
+        <p className='text-center text-sm text-primary opacity-100 font-light mt-5 md:w-[730px]'>We’re on social media! You can find us on Instagram, LinkedIn, Pinterest and Twitter and see what we’ve been up to.</p>
 
 
-        <div className='w-full  flex mt-10 flex-wrap'>
+        <div className='w-[full]  flex mt-10 flex-wrap'>
 
 
         <Link href='#'><div className='h-[50px] cursor-pointer w-1/2 md:w-1/3 flex font-light text-center items-center justify-center'><span className='pr-1'>{instagram}</span>Item 1</div></Link>

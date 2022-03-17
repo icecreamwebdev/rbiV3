@@ -11,7 +11,7 @@ const HeroText = ({textArray}) => {
     const TEXTS = textArray;
     const arrayLength = TEXTS.length;
 
-    const speed = page == '/about' ? 500 : 150
+    const speed = page == '/about' ? 150 : 150
     const sizing = page == '/about' ? 'text-2xl' : 'text-4xl'
 
 

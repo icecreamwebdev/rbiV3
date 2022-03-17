@@ -86,7 +86,7 @@ const AboutUs = () => {
     <div className='absolute w-full h-full bg-alt text-white text-center justify-center flex-col items-center flex m-auto' >
         <h2 className='font-bold '>Lauren Cassidy</h2>
         <p className='font-light text-tiny md:text-tiny px-3'>Managing Director</p>
-        <p className='font-light text-xs md:text-tiny px-3 mt-2'>'“Designing clickable camapaigns is my favourite part of my role, I love it just as much as  cheese... and that’s a lot!”</p>
+        <p className='font-light text-xs md:text-tiny px-3 mt-2'>'“Designing clickable compaigns is my favourite part of my role, I love it just as much as  cheese... and that’s a lot!”</p>
     
     
     </div>
@@ -123,7 +123,7 @@ const AboutUs = () => {
     <div className='absolute w-full h-full bg-alt text-white text-center justify-center flex-col items-center flex m-auto' >
         <h2 className='font-bold'>Lucy Harper</h2>
         <p className='font-light text-tiny md:text-tiny px-3'>Managing Director</p>
-        <p className='font-light text-xs md:text-tiny px-3 mt-2'>'“Designing clickable camapaigns is my favourite part of my role, I love it just as much as  cheese... and that’s a lot!”</p>
+        <p className='font-light text-xs md:text-tiny px-3 mt-2'>'“Designing clickable campaigns is my favourite part of my role, I love it just as much as  cheese... and that’s a lot!”</p>
     
     
     </div>
