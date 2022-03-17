@@ -85,8 +85,8 @@ const AboutUs = () => {
     <Image src='/founder2.png' width='250' height='250' objectFit='cover'/>
     <div className='absolute w-full h-full bg-alt text-white text-center justify-center flex-col items-center flex m-auto' >
         <h2 className='font-bold mb-2'>Lauren Cassidy</h2>
-        <p className='font-light'>Hello this is some text</p>
-        <p className='font-light'>'some quote'</p>
+        <p className='font-light text-tiny md:text-tiny px-3'>Managing Director</p>
+        <p className='font-light text-xs md:text-tiny px-3 mt-2'>'“Designing clickable camapaigns is my favourite part of my role, I love it just as much as  cheese... and that’s a lot!”</p>
     
     
     </div>
@@ -121,9 +121,9 @@ const AboutUs = () => {
     <div className='flex w-full h-full' >
     <Image src='/founder1.png' width='250' height='250' objectFit='cover'/>
     <div className='absolute w-full h-full bg-alt text-white text-center justify-center flex-col items-center flex m-auto' >
-        <h2 className='font-bold mb-2'>Lucy Harper</h2>
-        <p className='font-light text-sm md:text-tiny px-2'>Hello this is some text</p>
-        <p className='font-light text-xs md:text-tiny px-2'>'some quote'</p>
+        <h2 className='font-bold mb1'>Lucy Harper</h2>
+        <p className='font-light text-tiny md:text-tiny px-3'>Managing Director</p>
+        <p className='font-light text-xs md:text-tiny px-3 mt-2'>'“Designing clickable camapaigns is my favourite part of my role, I love it just as much as  cheese... and that’s a lot!”</p>
     
     
     </div>
@@ -144,7 +144,7 @@ const AboutUs = () => {
             
             </div>
 
-                <div className='flex w-full mt-10 md:mt-0 md:w-1/2 xl:text-sm font-light text-sm md:text-xs lg:text-tiny p-1 md:pl-4'>
+                <div className='flex w-full mt-6 md:mt-0 md:w-1/2 xl:text-sm font-light text-sm md:text-xs lg:text-tiny p-1 md:pl-4'>
                 <p>With a combined 10+ years of marketing experience, RBI was established 
 by founders Lauren Cassidy and Lucy Harper in early 2020 and has been 
 growing ever since. Lauren and Lucy are both content creators and 
