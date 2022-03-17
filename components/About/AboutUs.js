@@ -50,28 +50,28 @@ const AboutUs = () => {
         <div className='w-20 flex justfiy-center h-0.5 rounded bg-gray-300 m-auto mt-0 pt-0'></div>
 
 
-        <div className='w-full h-full  mt-7 flex'>
+        <div className='w-full h-full  mt-7 flex flex-col md:flex-row'>
 
           
 
 
-            <div className='flex-col w-1/2 pr-5 flex items-between justify-between' >
+            <div className='flex-col w-full md:w-1/2 md:pr-5 flex items-between justify-between' >
 
         <div className='flex w-full h-[250px]  mb-5'>
 
 
 
-        <div className='flex w-full h-full bg-primary p-2 mr-2' onMouseEnter={debouncedHandleMouseEnter}
+        <div className='flex w-full h-full bg-primary p-2 mr-2 justify-center' onMouseEnter={debouncedHandleMouseEnter}
       onMouseLeave={handlOnMouseLeave} onClick={handleFLip1}>
 
 <ReactCardFlip isFlipped={isFlipped1} flipDirection="vertical">
 
-<div className='flex w-full h-full'  >
+<div className='flex w-full h-full justify-center' >
     <Image src='/founder1.png' width='250' height='250' objectFit='cover'/>
     </div>
 
 
-    <div className='flex w-full h-full' >
+    <div className='flex w-full h-full justify-center' >
     <Image src='/founder2.png' width='250' height='250' objectFit='cover'/>
     <div className='absolute w-full h-full bg-alt text-white text-center justify-center flex-col items-center flex m-auto' >
         <h2 className='font-bold mb-2'>Lauren Cassidy</h2>
@@ -98,7 +98,7 @@ const AboutUs = () => {
 
 
 
-<div className='flex w-full h-full bg-primary p-2 mr-2' onMouseEnter={debouncedHandleMouseEnter1}
+<div className='flex w-full h-full bg-primary p-2 md:mr-0 justify-center' onMouseEnter={debouncedHandleMouseEnter1}
       onMouseLeave={handlOnMouseLeave1} onClick={handleFLip2}>
 <ReactCardFlip isFlipped={isFlipped2} flipDirection="vertical">
 
@@ -128,13 +128,13 @@ const AboutUs = () => {
                 
     
 
-        <div className='flex w-full h-1/3 bg-alt items-center text-center px-4'>
+        <div className='flex w-full h-1/3 bg-alt items-center text-center px-4 py-4'>
             'this is a quote bla bla bla look its a quote bla bla bla, the team are great - Emilie Board, Influencer Executive'
             </div>
             
             </div>
 
-                <div className='flex w-1/2 xl:text-sm text-xs lg:text-tiny pl-4'>
+                <div className='flex w-full mt-10 md:mt-0 md:w-1/2 xl:text-sm text-xs lg:text-tiny p-0 md:pl-4'>
                 <p>With a combined 10+ years of marketing experience, RBI was established 
 by founders Lauren Cassidy and Lucy Harper in early 2020 and has been 
 growing ever since. Lauren and Lucy are both content creators and 
