@@ -11,7 +11,7 @@ export default class FloofSlider extends Component {
 
     const width = this.props.width;
 
-    const slidesPer = width < 1024 ? (width< 658 ? (width< 458 ? 2 : 3) : 4) : 6
+    const slidesPer = width < 1024 ? (width< 658 ? (width< 458 ? 3 : 3) : 4) : 6
 
     console.log(width)
     
@@ -25,7 +25,7 @@ export default class FloofSlider extends Component {
       speed: 800,
     };
 
-    const imageWidth = width< 558 ? '105' : '140'
+    const imageWidth = width< 558 ? '90' : '140'
     
 
 
@@ -33,7 +33,7 @@ export default class FloofSlider extends Component {
 
 
     return (
-      <div className='overflow-hidden mt-10 w-full text-white bg-primary w-full pb-10 '>
+      <div className='overflow-hidden md:mt-10 mt-4 w-full text-white bg-primary w-full pb-10 '>
         <Slider {...settings}>
           <div className='flex-col justify-center text-center h-100'>
               <Image src='/founder1.png' width={imageWidth} height={imageWidth} objectFit='cover'/>
