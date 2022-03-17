@@ -12,6 +12,7 @@ const HeroText = ({textArray}) => {
     const arrayLength = TEXTS.length;
 
     const speed = page == '/about' ? 500 : 150
+    const sizing = page == '/about' ? 'text-2xl' : 'text-4xl'
 
 
       const [index, setIndex] = React.useState(0);
@@ -41,7 +42,7 @@ const HeroText = ({textArray}) => {
 
     return (
       <div className='absolute w-full top-[270px] md:top-[280px]'>
-        <h1 className='flex h-20 items-center justify-center text-4xl md:text-5xl'>
+        <h1 className={`flex h-20 items-center justify-center ${sizing} md:text-5xl`}>
 
             {(index > arrayLength-1 || index == 0) ? stillText : rotatingText
     }

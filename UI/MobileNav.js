@@ -8,7 +8,7 @@ const MobileNav = ({isOpen, closeBurger}) => {
     const pathname = route.pathname
 
 
-    const navItems = ['home', 'about', 'brands', 'influencers', 'case studies', 'blog', 'contact']
+    const navItems = ['home', 'about', 'case studies', 'influencers', 'blog', 'contact']
 
     const show = isOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
 

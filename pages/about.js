@@ -7,14 +7,14 @@ const about = () => {
         <div className='h-screen w-full'>
 
 <HeroVideo videoSrc='aboutBackground.mp4' textArray={[
-        " dog lovers",
-        " tea drinkers",
-        " gin enthusiats",
-        " gym goers",
+        "dog lovers",
+        "tea drinkers",
+        "gin enthusiats",
+        "gym goers",
         "sun seekers",
         "pet owners",
-        " shopaholics",
-        " social butterflies",
+        "shopaholics",
+        "social butterflies",
       ]} />
 
       <AboutUs />
