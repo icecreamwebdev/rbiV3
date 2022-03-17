@@ -3,7 +3,7 @@ import HeroText from './HeroText';
 import Image from 'next/image';
 import AutoPlaySilentVideo from './AutoPlayVideo';
 
-const HeroVideo = () => {
+const HeroVideo = ({videoSrc, textArray}) => {
 
 const [hasLoaded, setLoaded] = useState(false)
 
@@ -24,7 +24,7 @@ const [hasLoaded, setLoaded] = useState(false)
           autoplay
           playsinline
           onload='${()=>setLoaded(true)}'
-          src="homebackground.mp4"
+          src='${videoSrc}'
         />,
       ` }}></div>
 
@@ -41,7 +41,7 @@ const [hasLoaded, setLoaded] = useState(false)
                    
 {/* </video> */}
 
-<HeroText loaded={hasLoaded}/>
+<HeroText loaded={hasLoaded} textArray={textArray}/>
 
 </>
 

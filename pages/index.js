@@ -22,7 +22,21 @@ export default function Home() {
     
    
     <div className='h-screen w-full'>
-      <HeroVideo />
+      <HeroVideo videoSrc='homeBackground.mp4' textArray={[
+        " Create",
+        " Source",
+        " Influence",
+        " Manage",
+        "Analyse",
+        "Succeed",
+        " Create",
+        " Source",
+        " Influence",
+        " Manage",
+        "Analyse",
+        "Succeed",
+        
+      ]} />
       <Services />
       <Brands />
       <WhyRBI />
