@@ -1,6 +1,7 @@
 import React from 'react';
 import HeroVideo from '../components/Hero/HeroVideo';
 import AboutUs from '../components/About/AboutUs';
+import FloofMembers from '../components/Floof/FloofMembers';
 
 const about = () => {
     return (
@@ -18,6 +19,8 @@ const about = () => {
       ]} />
 
       <AboutUs />
+      <FloofMembers />
+
      </div>
         
     );

@@ -53,7 +53,7 @@ const AboutUs = () => {
 
     return (
         <div className='bg-white w-full flex justify-center p-7'>
-        <div className='max-w-2xl flex flex-col justify-center items-center w-full'>
+        <div className='max-w-2xl flex flex-col justify-center items-center w-full pb-10'>
         
         <h1 className='text-2xl flex justify-center font-base uppercase h-min pb-3 pt-5'>About Us</h1>
         <div className='w-20 flex justfiy-center h-0.5 rounded bg-gray-300 m-auto mt-0 pt-0'></div>
