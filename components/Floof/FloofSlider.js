@@ -33,7 +33,7 @@ export default class FloofSlider extends Component {
 
 
     return (
-      <div className='overflow-hidden md:mt-10 mt-4 w-full text-white bg-primary w-full pb-10 '>
+      <div className='overflow-hidden md:mt-10 mt-4 w-full text-white bg-primary w-full pb-20 '>
         <Slider {...settings}>
           <div className='flex-col justify-center text-center h-100'>
               <Image src='/founder1.png' width={imageWidth} height={imageWidth} objectFit='cover'/>

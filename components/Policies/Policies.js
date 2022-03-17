@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-const policies = () => {
+const Policies = () => {
     return (
         <div className='bg-[#3c3d3e] opacity-90 w-full flex  items-center border-b-4 border-white justify-center'>
 
@@ -22,4 +22,4 @@ const policies = () => {
     );
 };
 
-export default policies;
+export default Policies;

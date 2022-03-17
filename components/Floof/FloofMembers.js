@@ -38,7 +38,7 @@ const FloofMembers = () => {
             </div>
 
             <div className='flex w-1/2 ml-2 justify-center items-center bg-white'>
-            <Image src='/founder1.png' width='70' height='70' objectFit='contain' />
+            <Image src='/paw.png' width='70' height='70' objectFit='contain' />
 
             </div>
             </div>
@@ -65,7 +65,7 @@ Privy to a ‘lick’ of wine if mum accidentally leaves in reach.
             </div>
 
             <div className='flex  w-1/2 ml-2 justify-center items-center bg-white'>
-            <Image src='/founder1.png' width='70' height='70' objectFit='contain' />
+            <Image src='/paw.png' width='70' height='70' objectFit='contain' />
 
             </div>
             </div>
