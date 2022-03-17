@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import ReactCardFlip from 'react-card-flip';
 import debounce from 'lodash.debounce';
+import getWindowSize from '../../utils/GetWindowSize';
+import { useEffect } from 'react';
 
 
 const AboutUs = () => {
@@ -10,12 +12,20 @@ const AboutUs = () => {
     const [isFlipped1, setFlipped1] = useState(false)
     const [isFlipped2, setFlipped2] = useState(false)
 
+    const [windowSize, setWindowSize] = useState(0)
+
     const debouncedHandleMouseEnter = debounce(() => setFlipped1(true), 50);
 
     const handlOnMouseLeave = () => {
         setFlipped1(false);
         debouncedHandleMouseEnter.cancel();
       };
+
+      useEffect(() => {
+
+        setWindowSize(getWindowSize())
+
+      },[])
 
       const debouncedHandleMouseEnter1 = debounce(() => setFlipped2(true), 100);
 
@@ -37,8 +47,7 @@ const AboutUs = () => {
         setFlipped2(()=> !isFlipped2)
     }
 
-    console.log('image one is flipped' + isFlipped1)
-    console.log('image two is flipped' + isFlipped2)
+    // console.log('window size is: ' + getWindowSize())
 
 
 
@@ -60,9 +69,10 @@ const AboutUs = () => {
         <div className='flex w-full h-[250px]  mb-5'>
 
 
+        {console.log(windowSize)}
 
-        <div className='flex w-full h-full bg-primary p-2 mr-2 justify-center' onMouseEnter={debouncedHandleMouseEnter}
-      onMouseLeave={handlOnMouseLeave} onClick={handleFLip1}>
+        <div className='flex w-full h-full bg-primary p-2 mr-2 justify-center' onMouseEnter={windowSize < 769? null : debouncedHandleMouseEnter}
+      onMouseLeave={windowSize < 769? null : handlOnMouseLeave} onClick={windowSize < 769? handleFLip1 : null}>
 
 <ReactCardFlip isFlipped={isFlipped1} flipDirection="vertical">
 
@@ -98,8 +108,8 @@ const AboutUs = () => {
 
 
 
-<div className='flex w-full h-full bg-primary p-2 md:mr-0 justify-center' onMouseEnter={debouncedHandleMouseEnter1}
-      onMouseLeave={handlOnMouseLeave1} onClick={handleFLip2}>
+<div className='flex w-full h-full bg-primary p-2 mr-2 justify-center' onMouseEnter={windowSize < 769? null : debouncedHandleMouseEnter1}
+      onMouseLeave={windowSize < 769? null : handlOnMouseLeave1} onClick={windowSize < 769? handleFLip2 : null}>
 <ReactCardFlip isFlipped={isFlipped2} flipDirection="vertical">
 
 <div className='flex w-full h-full'  >
@@ -134,7 +144,7 @@ const AboutUs = () => {
             
             </div>
 
-                <div className='flex w-full mt-10 md:mt-0 md:w-1/2 xl:text-sm text-xs lg:text-tiny p-0 md:pl-4'>
+                <div className='flex w-full mt-10 md:mt-0 md:w-1/2 xl:text-sm font-light text-sm md:text-xs lg:text-tiny p-1 md:pl-4'>
                 <p>With a combined 10+ years of marketing experience, RBI was established 
 by founders Lauren Cassidy and Lucy Harper in early 2020 and has been 
 growing ever since. Lauren and Lucy are both content creators and 
