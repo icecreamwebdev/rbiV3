@@ -2,11 +2,10 @@ import TextTransition, { presets } from "react-text-transition";
 import React, { useEffect } from "react";
 import { useRouter } from "next/router";
 
-const HeroText = ({textArray}) => {
+const HeroText = ({textArray, page}) => {
 
 
-  const router = useRouter();
-  const page = router.pathname;
+
 
     const TEXTS = textArray;
     const arrayLength = TEXTS.length;
@@ -28,7 +27,7 @@ const HeroText = ({textArray}) => {
             counter ++;
             }
           }, speed);
-        }, 800);
+        }, 1100);
         return () => clearInterval(timer);
       }, []);
     

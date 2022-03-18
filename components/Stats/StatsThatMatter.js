@@ -22,7 +22,7 @@ const StatsThatMatter = () => {
 Here are just a few statistics showcasing why your brand should try influencer marketing for your next campaign.</p>
 
 
-<div className='flex w-full flex-wrap mt-16'>
+<div className='flex w-full flex-wrap xl:mt-16 md:mt-10 mt-8'>
 
 
         <div className='w-1/2 md:w-1/4 md:h-60 xl:h-80  flex  flex-col'>
