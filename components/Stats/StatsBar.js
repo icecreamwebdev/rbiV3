@@ -6,6 +6,7 @@ import {
   import "react-circular-progressbar/dist/styles.css";
   import AnimatedProgressProvider from '../../utils/AnimatedProgressProvider';
 import ChangingProgressProvider from '../../utils/ChangingProgressProvider';
+import ReactVisibilitySensor from "react-visibility-sensor";
 
 import { easeQuadInOut } from "d3-ease";
 
@@ -14,6 +15,12 @@ import React from 'react';
 const StatsBar = ({duration, level, text}) => {
     return (
         <div className='w-full h-full lg:p-11 md:p-5 sm:p-12 p-8'>
+
+<ReactVisibilitySensor>
+{({ isVisible }) => {
+              const percentage = isVisible ? 90 : 0;
+              return (
+
             <AnimatedProgressProvider
         valueStart={0}
         valueEnd={level}
@@ -35,6 +42,12 @@ const StatsBar = ({duration, level, text}) => {
           );
         }}
       </AnimatedProgressProvider>
+
+);
+            }}
+
+</ReactVisibilitySensor>
+
         </div>
     );
 };
