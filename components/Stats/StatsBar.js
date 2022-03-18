@@ -13,7 +13,7 @@ import React from 'react';
 
 const StatsBar = ({duration, level, text}) => {
     return (
-        <div className='w-full h-full lg:p-11 md:p-10 p-4'>
+        <div className='w-full h-full lg:p-11 md:p-5 p-12'>
             <AnimatedProgressProvider
         valueStart={0}
         valueEnd={level}

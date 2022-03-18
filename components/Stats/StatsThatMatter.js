@@ -22,13 +22,13 @@ const StatsThatMatter = () => {
 Here are just a few statistics showcasing why your brand should try influencer marketing for your next campaign.</p>
 
 
-<div className='flex w-full  mt-16'>
+<div className='flex w-full flex-wrap mt-16'>
 
 
-        <div className='w-1/4 h-80  flex flex-col'>
+        <div className='w-1/2 md:w-1/4 md:h-60 xl:h-80  flex  flex-col'>
 
 
-                <div className='w-full h-60 '>
+                <div className='w-full  '>
                         <StatsBar duration={2} level={99} text={'$15 BILLION'} />
                     </div>
 
@@ -40,10 +40,10 @@ on influencer marketing by 2022.
             </div>
 
         
-<div className='w-1/4 h-80  flex flex-col'>
+<div className='w-1/2 md:w-1/4 md:h-60 xl:h-80  flex flex-col'>
 
-<div className='w-full h-60 '>
-                        <StatsBar duration={1} level={60} text={'60%'} />
+<div className='w-full '>
+                        <StatsBar duration={1.2} level={60} text={'60%'} />
                     </div>
 
                     <p className='text-center text-xs font-light p-2'>
@@ -54,9 +54,9 @@ than traditional media personalities
                     </p>
 </div>
 
-<div className='w-1/4 h-80  flex flex-col'>
-<div className='w-full h-60 '>
-                        <StatsBar duration={1} level={100} text={'11X GREATER'} />
+<div className=' w-1/2 md:w-1/4 md:h-60 xl:h-80  flex flex-col'>
+<div className='w-full  '>
+                        <StatsBar duration={2} level={100} text={'11X GREATER'} />
                     </div>
 
                     <p className='text-center text-xs font-light p-2'>
@@ -66,10 +66,10 @@ than banner ads
                     </p>
 </div>
 
-<div className='w-1/4 h-80 flex flex-col'>
+<div className='w-1/2 md:w-1/4 md:h-60 xl:h-80  flex flex-col'>
 
-<div className='w-full h-60 '>
-                        <StatsBar duration={2} level={80} text={'80%'} />
+<div className='w-full '>
+                        <StatsBar duration={1.2} level={80} text={'80%'} />
                     </div>
 
                     <p className='text-center text-xs font-light p-2'>
