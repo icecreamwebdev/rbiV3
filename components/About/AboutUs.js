@@ -58,8 +58,11 @@ const AboutUs = () => {
         <h1 className='text-2xl flex justify-center font-base uppercase h-min pb-3 pt-5'>About Us</h1>
         <div className='w-20 flex justfiy-center h-0.5 rounded bg-gray-300 m-auto mt-0 pt-0'></div>
 
+        <p className='text-center text-sm text-primary opacity-100 font-light mt-5 md:w-[730px]'>Here's a little bit about us, before we get to know you..</p>
 
-        <div className='w-full h-full  mt-7 flex flex-col md:flex-row'>
+
+
+        <div className='w-full h-full  mt-10 flex flex-col md:flex-row'>
 
           
 
