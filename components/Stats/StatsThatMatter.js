@@ -29,7 +29,7 @@ Here are just a few statistics showcasing why your brand should try influencer m
 
 
                 <div className='w-full h-60 '>
-                        <StatsBar duration={1} level={95} text={'$15 BILLION'} />
+                        <StatsBar duration={2} level={99} text={'$15 BILLION'} />
                     </div>
 
                     <p className='text-center text-xs font-light p-2'>
@@ -43,7 +43,7 @@ on influencer marketing by 2022.
 <div className='w-1/4 h-80  flex flex-col'>
 
 <div className='w-full h-60 '>
-                        <StatsBar duration={1.5} level={60} text={'60%'} />
+                        <StatsBar duration={1} level={60} text={'60%'} />
                     </div>
 
                     <p className='text-center text-xs font-light p-2'>
@@ -56,7 +56,7 @@ than traditional media personalities
 
 <div className='w-1/4 h-80  flex flex-col'>
 <div className='w-full h-60 '>
-                        <StatsBar duration={1.2} level={95} text={'11X GREATER'} />
+                        <StatsBar duration={1} level={100} text={'11X GREATER'} />
                     </div>
 
                     <p className='text-center text-xs font-light p-2'>

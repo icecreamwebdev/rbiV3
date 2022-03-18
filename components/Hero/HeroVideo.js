@@ -21,7 +21,7 @@ const [hasLoaded, setLoaded] = useState(false)
             __html: `<video autoplay playsinline muted loop src='/homeBackground.mp4' type="video/mp4" />`,
           }}
         /> */}
-<div className={page != '/about' ? 'videoOuter' : 'aboutOuter'} dangerouslySetInnerHTML={{ __html: `
+<div className={page == '/' ? 'videoOuter' : 'aboutOuter'} dangerouslySetInnerHTML={{ __html: `
         <video
           loop
           muted
