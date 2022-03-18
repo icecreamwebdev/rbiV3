@@ -34,9 +34,9 @@ const HeroText = ({textArray}) => {
     
 
       const rotatingText =  <div><span className='font-light text-white uppercase'>{page != '/about' ? 'We' : 'We Are'}</span>
-      <span className='text-alt pl-3 leading-tight drop-shadow-sm font-semibold uppercase'>{TEXTS[index]}</span></div>
+      <span className='text-alt pl-2 leading-tight drop-shadow-sm font-semibold uppercase'>{TEXTS[index]}</span></div>
       const stillText =  <div><span className='font-light text-white uppercase'>We are</span>
-      <span className='text-alt pl-3 leading-tight drop-shadow-sm font-semibold uppercase'>RBI</span></div>
+      <span className='text-alt pl-2 leading-tight drop-shadow-sm font-semibold uppercase'>RBI</span></div>
  
 
 

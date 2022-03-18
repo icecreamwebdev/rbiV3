@@ -49,3 +49,22 @@
 
   color:orange !important;
 }
+
+.aboutOuter{
+
+  width:100%;
+  height:58%;
+  background-image: url('../public/aboutSafety.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  z-index:1000;
+}
+
+.aboutOuter video{
+
+  width:100%;
+  height:100% !important ;
+  object-fit: cover;
+}

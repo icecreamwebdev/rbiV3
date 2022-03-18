@@ -24,7 +24,7 @@ const Socials = () => {
         <p className='text-center text-sm text-primary opacity-100 font-light mt-5 md:w-[730px]'>We’re on social media! You can find us on Instagram, LinkedIn, Pinterest and Twitter and see what we’ve been up to.</p>
 
 
-        <div className=' flex mt-10 flex-wrap'>
+        <div className='lg:w-[998px]   flex mt-10 flex-wrap'>
 
 
         <Link href='#'><div className='h-[50px] cursor-pointer w-1/2 md:w-1/3 flex font-light text-center items-center justify-center'><span className='pr-1'>{instagram}</span>Item 1</div></Link>
