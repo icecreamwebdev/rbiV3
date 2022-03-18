@@ -25,11 +25,11 @@ Here are just a few statistics showcasing why your brand should try influencer m
 <div className='flex w-full flex-wrap xl:mt-16 md:mt-10 mt-8'>
 
 
-        <div className='w-1/2 md:w-1/4 md:h-60 xl:h-80  flex  flex-col'>
+        <div className='w-1/2 md:w-1/4  flex  flex-col'>
 
 
                 <div className='w-full  '>
-                        <StatsBar duration={2} level={99} text={'$15 BILLION'} />
+                        <StatsBar duration={1.3} level={99} text={'$15 BILLION'} />
                     </div>
 
                     <p className='text-center text-xs font-light p-2'>
@@ -40,10 +40,10 @@ on influencer marketing by 2022.
             </div>
 
         
-<div className='w-1/2 md:w-1/4 md:h-60 xl:h-80  flex flex-col'>
+<div className='w-1/2 md:w-1/4 flex flex-col'>
 
 <div className='w-full '>
-                        <StatsBar duration={1.2} level={60} text={'60%'} />
+                        <StatsBar duration={1.3} level={60} text={'60%'} />
                     </div>
 
                     <p className='text-center text-xs font-light p-2'>
@@ -54,9 +54,9 @@ than traditional media personalities
                     </p>
 </div>
 
-<div className=' w-1/2 md:w-1/4 md:h-60 xl:h-80  flex flex-col'>
+<div className=' w-1/2 md:w-1/4  flex flex-col'>
 <div className='w-full  '>
-                        <StatsBar duration={2} level={100} text={'11X GREATER'} />
+                        <StatsBar duration={1.3} level={100} text={'11X GREATER'} />
                     </div>
 
                     <p className='text-center text-xs font-light p-2'>
@@ -66,10 +66,10 @@ than banner ads
                     </p>
 </div>
 
-<div className='w-1/2 md:w-1/4 md:h-60 xl:h-80  flex flex-col'>
+<div className='w-1/2 md:w-1/4  flex flex-col'>
 
 <div className='w-full '>
-                        <StatsBar duration={1.2} level={80} text={'80%'} />
+                        <StatsBar duration={1.3} level={80} text={'80%'} />
                     </div>
 
                     <p className='text-center text-xs font-light p-2'>

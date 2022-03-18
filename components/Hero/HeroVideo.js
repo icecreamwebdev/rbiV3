@@ -9,11 +9,12 @@ const HeroVideo = ({videoSrc, textArray}) => {
   const router = useRouter();
   const page = router.pathname;
 
+
 const [hasLoaded, setLoaded] = useState(false)
 
-   console.log(hasLoaded)
+const classItem = page == '/' ? 'videoOuter' : `${page.substring(1)}Outer`
 
-    return (
+return (
 <>
 
 {/* <div className='videoOuter'
@@ -21,7 +22,7 @@ const [hasLoaded, setLoaded] = useState(false)
             __html: `<video autoplay playsinline muted loop src='/homeBackground.mp4' type="video/mp4" />`,
           }}
         /> */}
-<div className={page == '/' ? 'videoOuter' : 'aboutOuter'} dangerouslySetInnerHTML={{ __html: `
+<div className={classItem} dangerouslySetInnerHTML={{ __html: `
         <video
           loop
           muted

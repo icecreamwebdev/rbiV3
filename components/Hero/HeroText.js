@@ -27,7 +27,7 @@ const HeroText = ({textArray, page}) => {
             counter ++;
             }
           }, speed);
-        }, 1100);
+        }, 950);
         return () => clearInterval(timer);
       }, []);
     
