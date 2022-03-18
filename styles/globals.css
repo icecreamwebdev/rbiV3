@@ -68,3 +68,18 @@
   height:100% !important ;
   object-fit: cover;
 }
+
+.CircularProgressbar .CircularProgressbar-path{
+  stroke:#f2aa3c !important;
+}
+
+.CircularProgressbar .CircularProgressbar-text{
+  
+  font-size:11px !important;
+  fill: rgb(54, 54, 54) !important;
+  font-weight: 400;
+  }
+
+  .CircularProgressbar .CircularProgressbar-trail{
+    stroke:#f3f4f6 !important;
+  }
