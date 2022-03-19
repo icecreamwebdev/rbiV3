@@ -22,7 +22,7 @@ Check out some of our favourites below.</p>
 
 {/* start of Video Section  */}
 
-            <div className='w-full flex p-2  md:flex-row flex-col bg-alt '>
+            <div className='w-full flex p-2  md:flex-row flex-col bg-alt mb-6 md:mb-0'>
 
 
                 <div className='md:w-7/12 w-full h-full relative '>
@@ -43,9 +43,9 @@ Check out some of our favourites below.</p>
                             <li>7 influencer activations</li>
                             <li>Campaign results: <br /><br /> <div className=' text-right'><ul >
                                 
-                                 <li>Youtube Views: 1,385,000</li>
-                                 <li>Likes: 40.6K</li>
-                                 <li>Comments: 1,966</li>
+                                 <li>Youtube Views: <span className='text-alt'>1,385,000</span></li>
+                                 <li>Likes: <span className='text-alt'>40.6K</span></li>
+                                 <li>Comments: <span className='text-alt'>1,966</span></li>
                                  
                                  </ul>
                                  
