@@ -33,10 +33,10 @@ Check out some of our favourites below.</p>
 
                     <div className='md:w-5/12 h-full flex flex-col items-center justify-center text-white p-10  bg-primary '>
 
-                        <h2 className='flex text-white mb-1 uppercase items-center text-xl justify-center'>CLIENT: <span className='flex items-center pl-2'><Image src='/brands/brand1.png' width='80' height='18' objectFit='contain' /></span></h2>
+                        <h2 className='flex text-white mb-3 uppercase items-center text-xl justify-center'>CLIENT: <span className='flex items-center pl-2'><Image src='/brands/brand10.png' width='80' height='18' objectFit='contain' /></span></h2>
                         <p className='font-semibold text-center text-sm'>Campaign goal: Increase brand visbility during Black Friday sales.</p>
 
-                        <ul className='font-light text-xs mt-4 list-disc  pl-4 text-left'>
+                        <ul className='font-light text-xs mt-4 list-disc  pl-4 text-left w-full'>
 
                             <li>Platforms: Youtube (with instagram story accompaniment)</li>
                             <li>Ad style: pre-roll, mid-roll & instagram story</li>
@@ -73,19 +73,19 @@ Check out some of our favourites below.</p>
 
     <div className='md:w-5/12 h-full flex flex-col items-center justify-center bg-primary text-white p-10 '>
 
-        <h2 className='flex mb-1 uppercase items-center text-xl justify-center'>CLIENT: <span className='flex items-center pl-2'><Image src='/brands/brand1.png' width='80' height='18' objectFit='contain'  /></span></h2>
+        <h2 className='flex mb-3 uppercase items-center text-xl justify-center'>CLIENT: <span className='flex items-center pl-2'><Image src='/brands/brand2.png' width='50' height='25' objectFit='contain'  /></span></h2>
         <p className='font-semibold text-center text-tiny'>Campaign goal: Increase brand visbility during Black Friday sales.</p>
 
-        <ul className='font-light text-xs mt-4 list-disc  pl-4 text-left'>
+        <ul className='font-light text-xs mt-4 list-disc  pl-4 text-left w-full'>
 
-            <li>Platforms: Youtube (with instagram story accompaniment)</li>
-            <li>Ad style: pre-roll, mid-roll & instagram story</li>
-            <li>7 influencer activations</li>
+            <li>Platforms: Youtube</li>
+            <li>Ad style: up to 3 minute pre roll ad</li>
+            <li>24 influencer activations</li>
             <li>Campaign results: <br /><br /> <div className=' text-right'><ul >
                 
-                 <li>Youtube Views: 1,385,000</li>
-                 <li>Likes: 40.6K</li>
-                 <li>Comments: 1,966</li>
+                 <li>Youtube Views: <span className='text-alt'>4,317,646</span></li>
+                 <li>Likes: <span className='text-alt'>168K</span></li>
+                 <li>Comments: <span className='text-alt'>10,212</span></li>
                  
                  </ul>
                  

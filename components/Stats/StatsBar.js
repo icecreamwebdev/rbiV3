@@ -16,7 +16,7 @@ import React from 'react';
 
 const StatsBar = ({duration, level, text}) => {
     return (
-        <div className='w-full h-full lg:p-11 md:p-5 sm:p-12 p-6'>
+        <div className='w-full h-full lg:p-11 md:p-10 sm:p-16 p-6'>
             
 
             <ReactVisibilitySensor>
