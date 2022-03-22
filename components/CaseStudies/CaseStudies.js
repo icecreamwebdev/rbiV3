@@ -148,7 +148,7 @@ Check out some of our favourites below.</p>
 <div className='w-full flex p-2  md:flex-row-reverse flex-col bg-white mb-6 	'>
 
 
-<div className='md:w-2/5 w-full h-[500px] sm:h-[700px] md:h-full relative  justify-center w-full items-center align-middle bg-primary  md:pt-0'>
+<div className='md:w-2/5 w-full h-[470px] sm:h-[660px] md:h-full relative  justify-center w-full items-center align-middle bg-primary  md:pt-0'>
 
 {/* <div className='md:h-[400px] w-full md:flex flex bg-primary relative w-full justify-center'
    dangerouslySetInnerHTML={{
@@ -163,7 +163,7 @@ Check out some of our favourites below.</p>
         <h2 className='flex text-white mb-3 uppercase items-center text-xl justify-center'>CLIENT: <span className='flex items-center pl-2'><Image src='/brands/brand8.png' width='80' height='30' objectFit='contain' /></span></h2>
         <p className='font-semibold text-center text-sm'>Campaign goal: Targeting a 35+ audience using micro-beauty influencers. Promoting several premium laser products to increase brand awareness and drive social engagement.</p>
 
-        <ul className='font-light text-xs mt-4 list-disc  pl-4 text-left w-full'>
+        <ul className='font-light text-xs mt-6 list-disc  pl-4 text-left w-full'>
 
             <li>Platforms: Instagram & Youtube</li>
             <li>Ad style: Instagram post & story. Youtube pre-roll up to 5 minutes.</li>
