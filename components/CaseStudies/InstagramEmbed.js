@@ -25,7 +25,7 @@ const InstagramEmbed = () => {
         })
     return (
         <iframe
-        className='md:w-full h-[500px] w-full md:h-full h-full p-2 flex justify-center'
+        className='md:w-full h-[640px] w-full md:h-full h-full p-2 flex justify-center'
 src={`https://www.instagram.com/reel/CIq4I4RDiBM/embed/?cr=1&v=14&rd=http%3A%2F%2Flocalhost%3A3000&rp=%2Fcase-studies#%7B%22ci%22%3A0%2C%22os%22%3A414.19999998807907%2C%22ls%22%3A407.30000001192093%2C%22le%22%3A409%7D`}
 frameBorder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

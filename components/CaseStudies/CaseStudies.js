@@ -148,7 +148,7 @@ Check out some of our favourites below.</p>
 <div className='w-full flex p-2  md:flex-row-reverse flex-col bg-white mb-6 	'>
 
 
-<div className='md:w-2/5 w-full h-[600px] md:h-full relative  justify-center w-full items-center align-middle bg-primary pt-10 md:pt-0'>
+<div className='md:w-2/5 w-full h-[730px] md:h-full relative  justify-center w-full items-center align-middle bg-primary pt-10 md:pt-0'>
 
 {/* <div className='md:h-[400px] w-full md:flex flex bg-primary relative w-full justify-center'
    dangerouslySetInnerHTML={{
