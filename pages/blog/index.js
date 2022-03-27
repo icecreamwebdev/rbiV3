@@ -16,9 +16,15 @@ const blog = ({posts}) => {
     console.log(posts[0])
     return (
         <div className='flex w-full justify-center p-7' > 
+        
 
+        <div className='max-w-2xl'>
 
-         <div className=' max-w-2xl  w-full grid md:grid-cols-3 grid-cols-1 gap-6'>
+        <h1 className='text-2xl flex justify-center font-base uppercase h-min pb-3 pt-5'>blog posts</h1>
+            <div className='w-20 flex justfiy-center h-0.5 rounded bg-gray-300 m-auto mt-0 pt-0'></div>
+         <div className='  mt-10 w-full grid md:grid-cols-3 grid-cols-1 gap-6'>
+
+             
 
 
 
@@ -40,7 +46,7 @@ const blog = ({posts}) => {
                   </span>
    </div>
 
-   <div className='flex-col flex w-full p-2  p-4 bg-white-100 border border-gray-100 shadow rounded'>
+   {/* <div className='flex-col flex w-full p-2  p-4 bg-white-100 border border-gray-100 shadow rounded'>
                 <Link  href="/blog/[slug]" as={`/blog/${slug.current}`}>
                     <img className='cursor-pointer' src={urlFor(mainImage.asset.url).width(400)
               .height(250)} width='650' height='250' objectFit='cover' />
@@ -77,12 +83,14 @@ const blog = ({posts}) => {
                   <span  className='text-gray-700 font-light text-xs' >
                   {new Date(_createdAt).toDateString()}
                   </span>
-   </div>
+   </div> */}
 </>
+
+
 
               )
           )}
-
+</div>
           </div>
           </div>
 
@@ -117,7 +125,8 @@ const blog = ({posts}) => {
       return {
         props: {
           posts
-        }
+        },
+        revalidate: 10, // In seconds
       }
   }
   
