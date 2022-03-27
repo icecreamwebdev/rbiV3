@@ -20,7 +20,8 @@ module.exports = {
 },
      maxWidth: {
       '2xl': '1024px',
-      '3xl': '1500px'
+      '3xl': '1500px',
+      'xl': '800px'
     },
     fontSize: {
       'mini': '.6rem',
