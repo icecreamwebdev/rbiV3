@@ -36,7 +36,7 @@ const Post = ({post}) => {
   if (!post){
     return null;
   }
-  
+
   const {
     title = 'Missing title',
     name = 'Missing name',
@@ -49,7 +49,7 @@ const Post = ({post}) => {
   return (
     <>
     <div className='blog pb-12 p-7 pt-0'>
-    <div className='max-w-2xl flex justify-center md:mt-10 mt-7 m-auto xl:p-0 pb-10'>
+    <div className='max-w-2xl w-full justify-center md:mt-10 mt-7 m-auto xl:p-0 pb-10'>
     <article>
       <h1 className='title'>{title}</h1>
       <div className='flex mt-7 mb-5 items-center'>
@@ -133,7 +133,8 @@ export async function getStaticProps(context) {
   return {
     props: {
       post
-    }
+    },
+    revalidate: 10, // In seconds
   }
 }
 export default Post
