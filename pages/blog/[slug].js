@@ -31,6 +31,12 @@ const ptComponents = {
 }
 
 const Post = ({post}) => {
+
+
+  if (!post){
+    return null;
+  }
+  
   const {
     title = 'Missing title',
     name = 'Missing name',
