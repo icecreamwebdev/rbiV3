@@ -5,7 +5,7 @@ import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import FooterFeed from './FooterFeed';
-
+import BlofFooter from './BlofFooter';
 
 const Footer = () => {
 
@@ -29,11 +29,12 @@ const Footer = () => {
                 {/* footer item 2 */}
 
 
-                <div className='flex-col flex p-2 lg:p-6  md:w-1/4 w-full text-white md:text-left text-center md:mt-0 mt-7'>
+                <div className='flex-col flex p-2 lg:p-6  md:w-1/5 w-full text-white md:text-left text-center md:mt-0 mt-7'>
 
-                <h2 className='mb-4 uppercase font-base text-sm border-b border-gray-600 pb-2'>Latest Blog Post</h2>
-                <p className='pb-2'>This is random blog post used for testing the layout of things.<Link href='#'><span className='text-alt'> read more here.</span></Link></p>
-                <span className='text-gray-400 '>2 hours ago</span>
+                <h2 className='mb-4 uppercase font-base text-sm border-b border-gray-600 pb-2'>Latest Blog Posts</h2>
+                {/* <p className='pb-2'>This is random blog post used for testing the layout of things.<Link href='#'><span className='text-alt'> read more here.</span></Link></p>
+                <span className='text-gray-400 '>2 hours ago</span> */}
+                <BlofFooter />
                         </div>
 
 
