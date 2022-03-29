@@ -12,8 +12,7 @@ const Policies = () => {
             </p>
 
             <ul className='flex text-gray-400 font-light pt-3 md:pt-0 justify-center font-light text-sm'>
-                <li><Link href='#'>Terms Of Use</Link></li>
-                <li className='pl-4'><Link href='#'>Privacy Policy</Link></li>
+                <li className='pl-4'><Link href='../privacy'>Privacy Policy</Link></li>
                 </ul>
 
                 </div>

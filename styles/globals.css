@@ -237,3 +237,23 @@
   width:22px !important;
   height:22px !important;
 }
+
+
+.privacy p{
+  margin-top:20px;
+}
+
+.privacy h2{
+  
+  font-weight:500;
+  margin-top:20px;
+  }
+
+  .privacy ul{
+    list-style: inside;
+    margin-top:10px;
+  }
+
+  .privacy ul li{
+    margin-top:20px;
+  }
