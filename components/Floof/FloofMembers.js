@@ -46,8 +46,8 @@ const FloofMembers = () => {
             <div className='flex-col mt-3'>
             <h2 className='font-semibold uppercase'>Hugo</h2>
             <p className='text-sm font-base'>Chief Treat Officer</p>
-            <p className='text-tiny font-light mt-2 text-gray-300'>Responsible for ensuring the biscuit tin is always stocked.
-Excellent at communicating when it’s dinner time.
+            <p className='text-tiny font-light mt-2 text-gray-300'>Responsible for ensuring the biscuit tin is always stocked.<br />
+Excellent at communicating when it’s dinner time.<br />
 Privy to a ‘lick’ of wine if mum accidentally leaves in reach.
 </p>
             </div>
@@ -73,9 +73,10 @@ Privy to a ‘lick’ of wine if mum accidentally leaves in reach.
             <div className='flex-col mt-3'>
             <h2 className='font-semibold uppercase'>LINDI</h2>
             <p className='text-sm font-base'>Director of Playtime</p>
-            <p className='text-tiny font-light mt-2 text-gray-300'>Responsible for ensuring the biscuit tin is always stocked.
-Excellent at communicating when it’s dinner time.
-Privy to a ‘lick’ of wine if mum accidentally leaves in reach.
+            <p className='text-tiny font-light mt-2 text-gray-300'>Responsible for ensuring all staff take a break for playtime,<br />
+Excellent at squeaking toys.<br />
+Will eat anything and everything in sight.
+
 </p>
             </div>
 

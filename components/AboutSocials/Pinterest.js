@@ -26,7 +26,7 @@ const Pinterest = () => {
     })
     return (
             <a 
-  href="https://www.pinterest.com/anapinskywalker/"
+  href="https://www.pinterest.com/weare_RBI/"
   data-pin-do="embedUser"
   data-pin-scale-height="420"
   data-pin-scale-width="60"

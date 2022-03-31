@@ -18,9 +18,9 @@ const FounderItem = ({name, founderImg, bodyText }) => {
 
             <p className='text-left text-tiny w-full mt-1 font-light'>Co-founder</p>
 
-                <p className='w-full pt-3 text-xs text-primary flex-wrap font-light'>{bodyText} <Link href='#'><span className='text-alt'>Click</span></Link> to learn more.</p>
+                <p className='w-full pt-3 text-xs text-primary flex-wrap font-light'>{bodyText} <Link href='/about'><span className=' cursor-pointer text-alt'>Click</span></Link> to learn more.</p>
             
-                <p className='text-right pt-4'><span className=' bg-alt p-2 py-1 rounded-full text-orange-100 text-center items-center justify-center '>{'>'}</span></p>
+                <Link href='/about'><p className='text-right cursor-pointer pt-4'><span className=' bg-alt p-2 py-1 rounded-full text-orange-100 text-center items-center justify-center '>{'>'}</span></p></Link>
             </div>
         </div>
     

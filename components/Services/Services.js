@@ -17,7 +17,7 @@ From creating a clickable social campagn to sourcing talent, RBI has you covered
 
         <ServicesIconSec />
 
-        <Link href='#'><div className='flex justify-center cursor-pointer bg-alt text-white uppercase rounded-3xl mt-16 p-2 px-5 text-sm mb-10'>Case studies</div></Link>
+        <Link href='/case-studies'><div className='flex justify-center cursor-pointer bg-alt hover:opacity-80 text-white uppercase rounded-3xl mt-16 p-2 px-5 text-sm mb-10'>Case studies</div></Link>
         </div>
 
         </div>

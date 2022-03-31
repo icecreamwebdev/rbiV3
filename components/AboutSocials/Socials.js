@@ -24,18 +24,21 @@ const Socials = () => {
         <p className='text-center text-sm text-primary opacity-100 font-light mt-5 md:w-[730px]'>We’re on social media! You can find us on Instagram, LinkedIn, Pinterest and Twitter and see what we’ve been up to.</p>
 
 
-        <div className='lg:w-[998px]   flex mt-10 flex-wrap'>
+<div className='w-full flex justify-center items-center'>
+        <div className='mt-10 grid grid-cols-2 sm:grid-cols-3 gap-3 sm:w-[620px] text-left'>
 
 
-        <Link href='#'><div className='h-[50px] cursor-pointer w-1/2 md:w-1/3 flex font-light text-center items-center justify-center'><span className='pr-1'>{instagram}</span>Item 1</div></Link>
-        <Link href='#'><div className='h-[50px] cursor-pointer w-1/2 md:w-1/3 flex font-light text-center items-center justify-center'><span className='pr-1'>{instagram}</span>Item 1</div></Link>
-        <Link href='#'><div className='h-[50px] cursor-pointer w-1/2 md:w-1/3 flex font-light text-center items-center justify-center'><span className='pr-1'>{instagram}</span>Item 1</div></Link>
-        <Link href='#'><div className='h-[50px] cursor-pointer w-1/2 md:w-1/3 flex font-light text-center items-center justify-center'><span className='pr-1'>{instagram}</span>Item 1</div></Link>
-        <Link href='#'><div className='h-[50px] cursor-pointer w-1/2 md:w-1/3 flex font-light text-center items-center justify-center'><span className='pr-1'>{twitter}</span>Item 1</div></Link>
-        <Link href='#'><div className='h-[50px] cursor-pointer w-1/2 md:w-1/3 flex font-light text-center items-center justify-center'><span className='pr-1'>{linkedin}</span>Item 1</div></Link>
+        <div><Link href='https://www.instagram.com/weare_rbi/?hl=en'><div className='h-[50px] cursor-pointer  flex font-light  items-center justify-center'><span className='pr-1'>{instagram}</span>weare_rbi</div></Link></div>
+        <div><Link href='https://www.instagram.com/ccalmasmr/?hl=en'><div className='h-[50px] cursor-pointer flex font-light text-center items-center justify-center'><span className='pr-1'>{instagram}</span>ccalmasmr</div></Link></div>
+        <div><Link href='https://www.instagram.com/laurenhwoods/?hl=en'><div className='h-[50px] cursor-pointer flex font-light text-center items-center justify-center'><span className='pr-1'>{instagram}</span>laurenhwoods</div></Link></div>
+        <div><Link href='https://twitter.com/weare_rbi'><div className='h-[50px] cursor-pointer  flex font-light text-center items-center justify-center'><span className='pr-1'>{twitter}</span>weare_rbi</div></Link></div>
+        <div><Link href='https://www.instagram.com/hugothewolf_/?hl=en'><div className='h-[50px] cursor-pointer flex font-light text-center items-center justify-center'><span className='pr-1'>{instagram}</span>hugothewolf_</div></Link></div>
+
+       <div> <Link href='https://www.linkedin.com/company/rbimedia'><div className='h-[50px] cursor-pointer  flex font-light text-center items-center justify-center'><span className='pr-1'>{linkedin}</span>rbimedia</div></Link></div>
 
 
 
+            </div>
             </div>
 
         {/* <div className='w-full bg-green-300 flex mt-10 flex-wrap'>

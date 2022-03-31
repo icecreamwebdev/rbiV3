@@ -4,7 +4,8 @@ import client from '../../utils/client';
 import Link from 'next/link';
 import Image from 'next/image';
 import imageUrlBuilder from '@sanity/image-url'
-
+import Footer from '../../components/Footer/Footer';
+import Policies from '../../components/Policies/Policies';
 
 const blog = ({posts}) => {
 
@@ -15,10 +16,11 @@ const blog = ({posts}) => {
 
     console.log(posts[0])
     return (
+      <>
         <div className='flex w-full justify-center p-7' > 
         
 
-        <div className='max-w-2xl'>
+        <div className='max-w-2xl min-h-screen'>
 
         <h1 className='text-2xl flex justify-center font-base uppercase h-min pb-3 pt-5'>blog posts</h1>
             <div className='w-20 flex justfiy-center h-0.5 rounded bg-gray-300 m-auto mt-0 pt-0'></div>
@@ -93,6 +95,9 @@ const blog = ({posts}) => {
 </div>
           </div>
           </div>
+          <Footer />
+          <Policies />
+          </>
 
          
         

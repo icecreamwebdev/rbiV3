@@ -12,7 +12,7 @@
 module.exports = {
   reactStrictMode: true,
   images: {
-    domains: ['instagram.fgla3-2.fna.fbcdn.net', 'instagram.fgla3-1.fna.fbcdn.net','www.instagram.fgla3-2.fna.fbcdn.net', 'www.instagram.fgla3-1.fna.fbcdn.net', 'https://instagram.fgla3-2.fna.fbcdn.net', 'https://instagram.fgla3-1.fna.fbcdn.net','https://instagram.fgla3-2.fna.fbcdn.net/','instagram.fgla3-2.fna.fbcdn.net/'],
+    domains: ['scontent.cdninstagram.com', 'instagram.fgla3-1.fna.fbcdn.net','www.instagram.fgla3-2.fna.fbcdn.net', 'www.instagram.fgla3-1.fna.fbcdn.net', 'https://instagram.fgla3-2.fna.fbcdn.net', 'https://instagram.fgla3-1.fna.fbcdn.net','https://instagram.fgla3-2.fna.fbcdn.net/','instagram.fgla3-2.fna.fbcdn.net/'],
   },
   future: {
     webpack5: true, // by default, if you customize webpack config, they switch back to version 4. 

@@ -3,9 +3,35 @@ import Image from 'next/image';
 import PreviewSlicer from '../../utils/PreviewSlicer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faC, faComment, faHeart } from '@fortawesome/free-solid-svg-icons';
+import useSWR from 'swr';
+import Link from 'next/link';
 
 
 const FooterFeed = () => {
+
+
+    const token = 'IGQVJYaEUxRV9zb1FZAVVRKQjdqa1UzNFhqT2FOSzBjVEZAEaml2TFRERVhpS3UwQjl4aHVhc1pRbXh2QmllS1hiSzByZA3NZALUJ0NlQ3Nk9rU1g5VEVzZAi1YTUtPYWRhcE5rMWFzdUFURGZAPMGo4UTVKYQZDZD'
+    const limit = 2
+
+  const address = `https://graph.instagram.com/me/media?fields=id,media_type,permalink,media_url,caption&limit=${limit}&access_token=${token}`;
+
+  const fetcher = (url, date) => fetch(address).then((r) => r.json());
+
+
+  const { data, error } = useSWR(address, fetcher)
+
+  if (error) return <div>failed to load</div>
+  if (!data) return <div>loading...</div>
+
+
+  console.log(data)
+
+
+//   const fetcher = async (url) => await axios.get(url).then((res) => res.data);
+//   const { data, error } = useSWR(address, fetcher);
+
+//   if (error) <p>Loading failed...</p>;
+//   if (!data) <h1>Loading...</h1>;
 
 
     const posts = [{img: 'safetyBackground.jpeg', comments: 0, likes: 1, caption: 'This is my first post of a test account'},{img: 'safetyBackground.jpeg', comments: 0, likes: 0, caption: 'This is my second post of a test account, used to test out api calls and design'}]
@@ -19,25 +45,22 @@ const FooterFeed = () => {
     return (
         <ul>
 
-                            {posts.slice(0,2).map((post, i) => {
+                            {data.data.slice(0,2).map((post, i) => {
                     return (
                         <li key={i}>
-                            <div className='flex pt-3 text-xtiny shrink-0 justify-left'>
+                            <Link href={post.permalink}>
+                            <div className='flex mb-3 cursor-pointer text-xtiny shrink-0 justify-left '>
                             {/* <Image src={node.display_resources[0].src} width='80' height='80' objectFit='contain'/> */}
                             {/* <Image src={`/api/imageproxy?url=${encodeURIComponent(node.display_resources[0].src)}`} width='80' height='80' objectFit='contain'/> */}
-                            <Image src='/safetyBackground.jpg' width='80' height='80' objectFit='cover'/>
-                            <div className=' pl-4 flex-col'>
+                            <Image src={post.media_url} width='80' height='80' objectFit='cover'/>
+                            <div className=' pl-4 flex-col items-center'>
                             {/* <p className='text-gray-400 pb-3'> {PreviewSlicer(node.edge_media_to_caption.edges[0]?.node.text)}</p> */}
-                            <p className='text-gray-400 pb-3'> {PreviewSlicer(post.caption)}</p>
+                            <p className=' hover:text-alt text-gray-300 text-left '> {PreviewSlicer(post.caption)}</p>
                             
-                            <div className='flex text-left'>
-                            {/* <p className='pr-3 text-xtiny max-h-[10px]'><span className='mr-1'>{likeIcon}</span>{node.edge_media_preview_like.count}</p> */}
-                            {/* <p className='pr-3 text-xtiny max-h-[10px]'><span className='mr-1'>{likeIcon}</span>{node.edge_media_preview_like.count}</p> */}
-                            <p className='pr-3 text-xtiny max-h-[10px]'><span className='pr-1' >{commentIcon}</span>{post.comments}</p>
-                            <p className='pr-3 text-xtiny max-h-[10px]'><span className='pr-1 text-xtiny max-h-[10px]'>{likeIcon}</span>{post.likes}</p>
+                           
                             </div>
                             </div>
-                            </div>
+                            </Link>
                         </li>
                     );
                 })}

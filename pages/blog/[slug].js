@@ -6,6 +6,7 @@ import Footer from '../../components/Footer/Footer';
 import { EmailIcon, EmailShareButton, FacebookShareButton, PinterestIcon, PinterestShareButton, RedditIcon, RedditShareButton, TwitterIcon, TwitterShareButton, WhatsappIcon, WhatsappShareButton } from "react-share";
 import { FacebookIcon } from "react-share";
 import { Router, useRouter } from "next/router";
+import Policies from "../../components/Policies/Policies";
 
 
 
@@ -164,6 +165,7 @@ const Post = ({post}) => {
     </div>
     </div>
     <Footer />
+    <Policies />
     
     </>
   )
