@@ -10,8 +10,8 @@ import Link from 'next/link';
 const FooterFeed = () => {
 
 
-    const token = 'IGQVJYaEUxRV9zb1FZAVVRKQjdqa1UzNFhqT2FOSzBjVEZAEaml2TFRERVhpS3UwQjl4aHVhc1pRbXh2QmllS1hiSzByZA3NZALUJ0NlQ3Nk9rU1g5VEVzZAi1YTUtPYWRhcE5rMWFzdUFURGZAPMGo4UTVKYQZDZD'
-    const limit = 2
+    const token = 'IGQVJWaUpiSmpnSzYxaTdBY2pnSzZAfUnJiaERWcVBvbVlqTTJUSkxkNTN2LWFXODJPR0p6eTlIVXFRZAWN0ZAV8xU1hxcGFTTkpUZAWs1ZAzBBeHMyWV82UGIzOC1wZAXZAkS0NLRkM4UzFBZAFFnRXQ3WFlFZAAZDZD'
+    const limit = 3
 
   const address = `https://graph.instagram.com/me/media?fields=id,media_type,permalink,media_url,caption&limit=${limit}&access_token=${token}`;
 
@@ -45,7 +45,7 @@ const FooterFeed = () => {
     return (
         <ul>
 
-                            {data.data.slice(0,2).map((post, i) => {
+                            {data.data.slice(0,3).map((post, i) => {
                     return (
                         <li key={i}>
                             <Link href={post.permalink}>
