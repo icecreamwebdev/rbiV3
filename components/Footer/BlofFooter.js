@@ -16,6 +16,7 @@ const BlofFooter = () => {
     return (
         <>
 
+       {console.log(data)}
 
         {data.map((post) => {
 
@@ -33,6 +34,7 @@ const BlofFooter = () => {
             )
 
         })}
+        
        
 
         </>

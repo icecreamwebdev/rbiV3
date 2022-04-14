@@ -7,8 +7,7 @@ const Pinterest = () => {
 
     useEffect(()=>{
 
-    //     const script = document.createElement('script')
-
+    //const script = document.createElement('script')
     // script.async = true
     // script.type = 'text/javascript'
     // script['data-pin-build'] = 'doBuild'
