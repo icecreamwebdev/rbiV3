@@ -11,7 +11,7 @@ const Nav = ({activePage, handleClick, isOpen}) => {
     const route = useRouter()
     const pathname = route.pathname
 
-    const navItems = ['home', 'about', 'case studies', 'blog', 'contact']
+    const navItems = ['home', 'about', 'influencers' , 'case studies', 'blog', 'contact']
 
     const icon =  <FontAwesomeIcon icon={faInstagram}  />
     const burgerIcon = isOpen? <FontAwesomeIcon icon={faXmark} /> : <FontAwesomeIcon icon={faBars} />

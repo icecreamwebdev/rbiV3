@@ -80,12 +80,12 @@ const AboutUs = () => {
 <ReactCardFlip isFlipped={isFlipped1} flipDirection="vertical">
 
 <div className='flex w-full h-full justify-center' >
-    <Image src='/founder1.png' width='250' height='250' objectFit='cover'/>
+    <Image src='/laurenAbout.jpg' width='250' height='250' objectFit='cover'/>
     </div>
 
 
     <div className='flex w-full h-full justify-center' >
-    <Image src='/founder2.png' width='250' height='250' objectFit='cover'/>
+    <Image src='/laurenAbout.jpg' width='250' height='250' objectFit='cover'/>
     <div className='absolute w-full h-full bg-alt text-white text-center justify-center flex-col items-center flex m-auto' >
         <h2 className='font-bold '>Lauren Cassidy</h2>
         <p className='font-light text-tiny md:text-tiny px-3'>Managing Director</p>
@@ -116,13 +116,13 @@ const AboutUs = () => {
 <ReactCardFlip isFlipped={isFlipped2} flipDirection="vertical">
 
 <div className='flex w-full h-full'  >
-    <Image src='/founder2.png' width='250' height='250' objectFit='cover'/>
+    <Image src='/lucyAbout.png' width='250' height='250' objectFit='cover'/>
   
     </div>
 
 
     <div className='flex w-full h-full' >
-    <Image src='/founder1.png' width='250' height='250' objectFit='cover'/>
+    <Image src='/laurenAbout.jpg' width='250' height='250' objectFit='cover'/>
     <div className='absolute w-full h-full bg-alt text-white text-center justify-center flex-col items-center flex m-auto' >
         <h2 className='font-bold'>Lucy Harper</h2>
         <p className='font-light text-tiny md:text-tiny px-3'>Managing Director</p>
@@ -141,8 +141,8 @@ const AboutUs = () => {
                 
     
 
-        <div className='flex w-full h-1/3 bg-alt items-center text-center px-4 py-4'>
-            'this is a quote bla bla bla look its a quote bla bla bla, the team are great - Emilie Board, Influencer Executive'
+        <div className='flex w-full h-1/3 bg-alt items-center text-sm text-center px-4 py-4'>
+            'I have never been able to say I love my job until I started working with RBI. I feel heard, I feel involved and most of all I feel so happy in my role. I look forward to logging into work, each and every day. - Emilie Board, Influencer Executive'
             </div>
             
             </div>

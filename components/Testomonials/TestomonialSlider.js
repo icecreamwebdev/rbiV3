@@ -32,22 +32,22 @@ export default class TestPlay extends Component {
       <div className='overflow-hidden w-full text-white bg-primary w-full pb-10 '>
         <Slider {...settings}>
           <div className='flex-col justify-center text-center h-100'>
-              <TestoItem brand='Human Media Group' author='Ben' mainText="“The RBI team is fantastic to work with - they&#39;re friendly. responsive and always deliver at
+              <TestoItem brand='Human Media Group' author='Ben' image='testo1.png' mainText="“The RBI team is fantastic to work with - they&#39;re friendly. responsive and always deliver at
 each stage of the campaign. I highly recommend working with RBI for all of your influencer
 marketing needs.”"  imgSrc='' />
           </div>
           <div className='flex-col justify-center text-center h-100'>
-          <TestoItem brand='Method Growth' author='Matt' mainText="“We&#39;ve been working with the RBI team for numerous integrations. RBI is always a pleasure
+          <TestoItem brand='Method Growth' author='Matt' image='testo2.png' mainText="“We&#39;ve been working with the RBI team for numerous integrations. RBI is always a pleasure
 to work with, professional, and able to get the job done. RBI&#39;s talent has proven effective so
 we keep coming back for more integrations across our client portfolio!”"  imgSrc='' />
           </div>
           <div className='flex-col justify-center text-center h-100'>
-          <TestoItem brand='Manta Sleep' author='Lia' mainText="The RBI team is fantastic to work with - theyre friendly. responsive and always deliver at
+          <TestoItem brand='Manta Sleep' author='Lia' image='testo3.png' mainText="The RBI team is fantastic to work with - theyre friendly. responsive and always deliver at
 each stage of the campaign. I highly recommend working with RBI for all of your influencer
 marketing needs."  imgSrc='' />
           </div>
           <div className='flex-col justify-center text-center h-100'>
-          <TestoItem brand='Algebra Media' author='-' mainText="“&quot;RunByInfluencers are wonderful to work with. They keep the space exciting with their wide
+          <TestoItem brand='Algebra Media' author='-' image='testo4.png' mainText="“&quot;RunByInfluencers are wonderful to work with. They keep the space exciting with their wide
 array of creators, friendly demeanor, and timely communication. Partnering with RBI is a
 stellar experience every step of the way.&quot;"  imgSrc='' />
           </div>

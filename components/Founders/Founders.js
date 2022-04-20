@@ -15,7 +15,7 @@ const Founders = () => {
           
 
             <div className='flex justify-around  flex-wrap w-full mb-10 md:w-[650px]'>
-            <FounderItem founderImg='/founder1.png' name='Lauren Cassidy' bodyText='Serious dog mum and early morning human.' />
+            <FounderItem founderImg='/founder1.jpg' name='Lauren Cassidy' bodyText='Serious dog mum and early morning human.' />
             <FounderItem founderImg='/founder2.png' name='Lucy Harper' bodyText='Can’t get through a meeting without a tea...or 10.' />
             </div>
 

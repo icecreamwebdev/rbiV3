@@ -36,31 +36,37 @@ export default class FloofSlider extends Component {
       <div className='overflow-hidden md:mt-10 mt-4 w-full text-white bg-primary w-full pb-20 '>
         <Slider {...settings}>
           <div className='flex-col justify-center text-center h-100'>
-              <Image src='/founder1.png' width={imageWidth} height={imageWidth} objectFit='cover'/>
+              <Image src='/floof1.jpg' width={imageWidth} height={imageWidth} objectFit='cover'/>
           </div>
           <div className='flex-col justify-center text-center h-100'>
-              <Image src='/founder1.png' width={imageWidth} height={imageWidth} objectFit='cover'/>
+              <Image src='/floof2.jpg' width={imageWidth} height={imageWidth} objectFit='cover'/>
           </div>
           <div className='flex-col justify-center text-center h-100'>
-              <Image src='/founder1.png' width={imageWidth} height={imageWidth} objectFit='cover'/>
+              <Image src='/floof3.jpg' width={imageWidth} height={imageWidth} objectFit='cover'/>
           </div>
           <div className='flex-col justify-center text-center h-100'>
-              <Image src='/founder1.png' width={imageWidth} height={imageWidth} objectFit='cover'/>
+              <Image src='/floof4.jpg' width={imageWidth} height={imageWidth} objectFit='cover'/>
           </div>
           <div className='flex-col justify-center text-center h-100'>
-              <Image src='/founder1.png' width={imageWidth} height={imageWidth} objectFit='cover'/>
+              <Image src='/floof5.jpg' width={imageWidth} height={imageWidth} objectFit='cover'/>
           </div>
           <div className='flex-col justify-center text-center h-100'>
-              <Image src='/founder1.png' width={imageWidth} height={imageWidth} objectFit='cover'/>
+              <Image src='/floof6.jpg' width={imageWidth} height={imageWidth} objectFit='cover'/>
           </div>
           <div className='flex-col justify-center text-center h-100'>
-              <Image src='/founder1.png' width={imageWidth} height={imageWidth} objectFit='cover'/>
+              <Image src='/floof7.jpg' width={imageWidth} height={imageWidth} objectFit='cover'/>
           </div>
           <div className='flex-col justify-center text-center h-100'>
-              <Image src='/founder1.png' width={imageWidth} height={imageWidth} objectFit='cover'/>
+              <Image src='/floof8.jpg' width={imageWidth} height={imageWidth} objectFit='cover'/>
           </div>
           <div className='flex-col justify-center text-center h-100'>
-              <Image src='/founder1.png' width={imageWidth} height={imageWidth} objectFit='cover'/>
+              <Image src='/floof9.jpg' width={imageWidth} height={imageWidth} objectFit='cover'/>
+          </div>
+          <div className='flex-col justify-center text-center h-100'>
+              <Image src='/floof10.jpg' width={imageWidth} height={imageWidth} objectFit='cover'/>
+          </div>
+          <div className='flex-col justify-center text-center h-100'>
+              <Image src='/floof11.jpg' width={imageWidth} height={imageWidth} objectFit='cover'/>
           </div>
           
         </Slider>
