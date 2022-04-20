@@ -6,7 +6,7 @@ const Steps = () => {
         <div className='bg-white w-full flex justify-center p-7'>
         <div className='max-w-2xl flex flex-col justify-center items-center w-full'>
         
-        <h1 className='text-2xl flex justify-center font-base uppercase h-min pb-3 pt-5'>OUR 4 STEPS TO SPONSORSHIP SUCCESS</h1>
+        <h1 className='text-2xl flex justify-center text-center font-base uppercase h-min pb-3 pt-5'>OUR 4 STEPS TO SPONSORSHIP SUCCESS</h1>
         <div className='w-20 flex justfiy-center h-0.5 rounded bg-gray-300 m-auto mt-0 pt-0'></div>
 
         <p className='text-center text-sm text-primary opacity-100 font-light mt-5 md:w-[730px]'>RBI offers flexible talent management from non-exclusive to exclusive. Regardless of how you
