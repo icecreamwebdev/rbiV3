@@ -84,7 +84,7 @@ const AboutUs = () => {
 
 <div className='flex w-full h-full justify-center' >
     <Image src='/laurenAbout.jpg' width='250' height='250' objectFit='cover'/>
-    <div className='absolute bottom-2 right-2 text-alt font-bold text-xl z-10 bg-primary p-2 rounded-full' >{flipIcon}</div>
+    <div className='absolute bottom-2 right-2 text-alt font-bold text-xl z-10 bg-primary p-2 rounded-full bg-opacity-70' >{flipIcon}</div>
 
     </div>
 
@@ -123,7 +123,7 @@ const AboutUs = () => {
 
 <div className='flex w-full h-full'  >
     <Image src='/lucyAbout.png' width='250' height='250' objectFit='cover'/>
-    <div className='absolute bottom-2 right-2 text-alt font-bold text-xl z-10 bg-primary p-2 rounded-full' >{flipIcon}</div>
+    <div className='absolute bottom-2 right-2 text-alt font-bold text-xl z-10 bg-primary p-2 rounded-full bg-opacity-70' >{flipIcon}</div>
   
     </div>
 
