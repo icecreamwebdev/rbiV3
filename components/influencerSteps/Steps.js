@@ -28,7 +28,7 @@ to keep things simple and help you make more from your passion.</p>
                    1.
                </div>
 
-                <p className='text-left font-light text-sm flex justify-center'>Whether you’re a YouTube, Instagram or TikTok star we’ll start by analysing your audience demographics to find out what brands would partner best with your channel.</p>
+                <p className='text-left font-light text-xs md:text-tiny flex justify-center'>Whether you’re a YouTube, Instagram or TikTok star we’ll start by analysing your audience demographics to find out what brands would partner best with your channel.</p>
        </div>
        </div>
 
@@ -38,7 +38,7 @@ to keep things simple and help you make more from your passion.</p>
                    2.
                </div>
 
-                <p className='text-left font-light text-sm flex justify-center'>If you work with us non-exclusively we’ll start by suggesting you to our existing brands. If you work with us exclusively we’ll discuss your channel goals and reach out to your dream brands to seek our partnership opportunities.</p>
+                <p className='text-left font-light text-xs md:text-tiny flex justify-center'>If you work with us non-exclusively we’ll start by suggesting you to our existing brands. If you work with us exclusively we’ll discuss your channel goals and reach out to your dream brands to seek our partnership opportunities.</p>
        </div>
        </div>
 
@@ -48,7 +48,7 @@ to keep things simple and help you make more from your passion.</p>
                    3.
                </div>
 
-                <p className='text-left font-light text-sm flex justify-center'>When we’ve received an official paid sponsorship opportunity from the client we’ll send you a proposal email. You have the choice to accept or decline - no pressure. If accepted, we’ll handle your contract & all the admin.</p>
+                <p className='text-left font-light text-xs md:text-tiny flex justify-center'>When we’ve received an official paid sponsorship opportunity from the client we’ll send you a proposal email. You have the choice to accept or decline - no pressure. If accepted, we’ll handle your contract & all the admin.</p>
        </div>
        </div>
 
@@ -58,7 +58,7 @@ to keep things simple and help you make more from your passion.</p>
                    4.
                </div>
 
-                <p className='text-left font-light text-sm flex justify-center'>We then provide you with your sponsorship brief that gives you all the information needed to create your ad. We’ll be there to offer support whenever you need it. Once the ad has gone live, we’ll invoice the brand and ensure payment terms are met. Easy!</p>
+                <p className='text-left font-light text-xs md:text-tiny flex justify-center'>We then provide you with your sponsorship brief that gives you all the information needed to create your ad. We’ll be there to offer support whenever you need it. Once the ad has gone live, we’ll invoice the brand and ensure payment terms are met. Easy!</p>
        </div>
        </div>
 

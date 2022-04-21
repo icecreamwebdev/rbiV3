@@ -31,7 +31,7 @@ const Nav = ({activePage, handleClick, isOpen}) => {
 
                     return <NavItem title={item} index={index} activePage={pathname}/>
                 })}
-                <li className='text-xl text-gray-400 hover:text-black hover:cursor-pointer'><Link href='https://www.instagram.com/weare_rbi/ '>{icon}</Link></li>
+                <li className='text-xl text-gray-400 hover:text-black hover:cursor-pointer'><Link href='https://www.instagram.com/rbi_agency/ '>{icon}</Link></li>
 
                 
 

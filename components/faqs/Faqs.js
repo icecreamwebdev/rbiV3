@@ -17,16 +17,16 @@ const Faqs = () => {
 
     
 
-<div className='grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 w-full'>
+<div className='grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 w-full text-primary text-xl'>
 
 
 <div className='p-1 lg:p-3'>
     <div className='flex flex-col w-full'>
-        <div className='flex justify-left py-4 items-center text-xl lg:text-2xl text-gray-800 font-light '>
-            <span className='w-3 h-3 lg:w-3.5 lg:h-3.5 rounded-full bg-alt mr-3'></span>Non-Exclusive
+        <div className='flex justify-left py-4 items-center  text-gray-800 font-base '>
+            <span className='w-[9px] h-[9px] md:w-[10px] md:h-[10px] rounded-full bg-alt mr-3 font-base'></span>Non-Exclusive
         </div>
 
-         <p className='text-left font-light text-xs md:text-sm flex justify-center'>You can choose to be exclusive or non-exclujsive. 
+         <p className='text-left font-light text-xs md:text-tiny flex justify-center'>You can choose to be exclusive or non-exclujsive. 
 If you are non-exclusive you can continue to source 
 and acquire sponsorships externally and we will include 
 you on our roster to clients for upcoming campaigns that 
@@ -39,11 +39,11 @@ can choose to become exclusive at any time.
 
 <div className='p-1 lg:p-3'>
     <div className='flex flex-col w-full'>
-        <div className='flex justify-left py-4 items-center text-xl lg:text-2xl text-gray-800 font-light '>
-            <span className='w-3 h-3 lg:w-3.5 lg:h-3.5 rounded-full bg-alt mr-3'></span>Exclusive
+        <div className='flex justify-left py-4 items-center  font-base '>
+            <span className='w-[9px] h-[9px] md:w-[10px] md:h-[10px] rounded-full bg-alt mr-3 font-base'></span>Exclusive
         </div>
 
-         <p className='text-left font-light text-xs md:text-sm flex justify-center'>If you are exclusive, you’ll be assigned your own personal
+         <p className='text-left font-light text-xs md:text-tiny flex justify-center'>If you are exclusive, you’ll be assigned your own personal
 manager who will work closely with you to source sponsors 
 with brands you would like to work with. For example, if you 
 wanted a fashion edit with a brand, we would help acquire 
@@ -55,11 +55,11 @@ and we would handle all of your email enquires on your behalf.
 
 <div className='p-1 lg:p-3'>
     <div className='flex flex-col w-full'>
-        <div className='flex justify-left py-4 items-center text-xl lg:text-2xl text-gray-800 font-light '>
-            <span className='w-3 h-3 lg:w-3.5 lg:h-3.5 rounded-full bg-alt mr-3'></span>Administration
+        <div className='flex justify-left py-4 items-center  font-base '>
+            <span className='w-[9px] h-[9px] md:w-[10px] md:h-[10px] rounded-full bg-alt mr-3 font-base'></span>Administration
         </div>
 
-         <p className='text-left font-light text-xs md:text-sm flex justify-center'>Whether you’re exclusive or non-exclusive, we handle
+         <p className='text-left font-light text-xs md:text-tiny flex justify-center'>Whether you’re exclusive or non-exclusive, we handle
 all of the contracts and invoices on your behalf so you
 can focus on creating conent rather than worrying about
 admin. If you need your own contract or invoice for 
@@ -73,11 +73,11 @@ upon request.
 
 <div className='p-1 lg:p-3'>
     <div className='flex flex-col w-full'>
-        <div className='flex justify-left py-4 items-center text-xl lg:text-2xl text-gray-800 font-light '>
-            <span className='w-3 h-3 lg:w-3.5 lg:h-3.5  rounded-full bg-alt mr-3'></span>Exclusive Terms
+        <div className='flex justify-left py-4 items-center font-base '>
+            <span className='w-[9px] h-[9px] md:w-[10px] md:h-[10px] rounded-full bg-alt mr-3 '></span>Exclusive Terms
         </div>
 
-         <p className='text-left font-light text-xs md:text-sm flex justify-center'>Our exclusive contracts start at a minimum term of 
+         <p className='text-left font-light text-xs md:text-tiny flex justify-center'>Our exclusive contracts start at a minimum term of 
 6 months. This gives you the chance to see how we can 
 work with you without having to commit to a full year 
 (many agencies require a full year contract). If you felt 
@@ -92,11 +92,11 @@ a ‘business contact’ on your social media accounts.
 
 <div className='p-1 lg:p-3'>
     <div className='flex flex-col w-full'>
-        <div className='flex justify-left py-4 items-center text-xl lg:text-2xl  text-gray-800 font-light '>
-            <span className='w-3 h-3 lg:w-3.5 lg:h-3.5  rounded-full bg-alt mr-3'></span>Payments
+        <div className='flex justify-left py-4 items-center font-base '>
+            <span className='w-[9px] h-[9px] md:w-[10px] md:h-[10px]  rounded-full bg-alt mr-3 font-base'></span>Payments
         </div>
 
-         <p className='text-left font-light text-xs md:text-sm flex justify-center'>We handle all payments on your behalf. Payment timeline
+         <p className='text-left font-light text-xs md:text-tiny flex justify-center'>We handle all payments on your behalf. Payment timeline
 is approximately 45-60 days after your content goes live. This
 varies from brand to brand but you’ll be advised at the time of
 sponsorship offer the exact payment timeline for the specific
@@ -111,11 +111,11 @@ or Wise payments if preferred.
 
 <div className='p-1 lg:p-3'>
     <div className='flex flex-col w-full'>
-        <div className='flex justify-left py-4 items-center text-xl lg:text-2xl text-gray-800 font-light '>
-            <span className='w-3 h-3 lg:w-3.5 lg:h-3.5 rounded-full bg-alt mr-3'></span>Best Practices 
+        <div className='flex justify-left py-4 items-center font-base '>
+            <span className='w-[9px] h-[9px] md:w-[10px] md:h-[10px] rounded-full bg-alt mr-3 font-base'></span>Best Practices 
         </div>
 
-         <p className='text-left font-light text-xs md:text-sm flex justify-center'>
+         <p className='text-left font-light text-xs md:text-tiny flex justify-center'>
          You’ll always be provided with a brief for each campaign
 you work on. Always read the brief in full, making sure 
 all mandatory talking points are included at the time of 

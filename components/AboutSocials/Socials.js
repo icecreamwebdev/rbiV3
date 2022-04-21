@@ -28,11 +28,13 @@ const Socials = () => {
         <div className='mt-10 grid grid-cols-2 sm:grid-cols-3 gap-3 sm:w-[620px] text-left'>
 
 
-        <div><Link href='https://www.instagram.com/weare_rbi/?hl=en'><div className='h-[50px] cursor-pointer  flex font-light  items-center justify-center'><span className='pr-1'>{instagram}</span>weare_rbi</div></Link></div>
         <div><Link href='https://www.instagram.com/ccalmasmr/?hl=en'><div className='h-[50px] cursor-pointer flex font-light text-center items-center justify-center'><span className='pr-1'>{instagram}</span>ccalmasmr</div></Link></div>
         <div><Link href='https://www.instagram.com/laurenhwoods/?hl=en'><div className='h-[50px] cursor-pointer flex font-light text-center items-center justify-center'><span className='pr-1'>{instagram}</span>laurenhwoods</div></Link></div>
-        <div><Link href='https://twitter.com/weare_rbi'><div className='h-[50px] cursor-pointer  flex font-light text-center items-center justify-center'><span className='pr-1'>{twitter}</span>weare_rbi</div></Link></div>
+
+        <div><Link href='https://www.instagram.com/rbi_agency/'><div className='h-[50px] cursor-pointer  flex font-light  items-center justify-center'><span className='pr-1'>{instagram}</span>rbi_agency</div></Link></div>
+
         <div><Link href='https://www.instagram.com/hugothewolf_/?hl=en'><div className='h-[50px] cursor-pointer flex font-light text-center items-center justify-center'><span className='pr-1'>{instagram}</span>hugothewolf_</div></Link></div>
+        <div><Link href='https://twitter.com/weare_rbi'><div className='h-[50px] cursor-pointer  flex font-light text-center items-center justify-center'><span className='pr-1'>{twitter}</span>weare_rbi</div></Link></div>
 
        <div> <Link href='https://www.linkedin.com/company/rbimedia'><div className='h-[50px] cursor-pointer  flex font-light text-center items-center justify-center'><span className='pr-1'>{linkedin}</span>rbimedia</div></Link></div>
 
