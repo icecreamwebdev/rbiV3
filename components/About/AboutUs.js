@@ -71,9 +71,9 @@ const AboutUs = () => {
           
 
 
-            <div className='flex-col w-full md:w-1/2 md:pr-5 flex items-between justify-between' >
+            <div className='flex-col w-full md:w-1/2 md:pr-5 flex items-between justify-none md:justify-between' >
 
-        <div className='flex w-full h-[250px]  mb-5'>
+        <div className='flex w-full h-[240px] md:h-[250px]  mb-5'>
 
 
 
@@ -117,7 +117,7 @@ const AboutUs = () => {
 
 
 
-<div className='flex w-full h-full bg-primary p-2 md:mr-2 justify-center' onMouseEnter={windowSize < 769? null : debouncedHandleMouseEnter1}
+<div className='flex w-full h-full bg-primary p-2 md:mr-0 justify-center' onMouseEnter={windowSize < 769? null : debouncedHandleMouseEnter1}
       onMouseLeave={windowSize < 769? null : handlOnMouseLeave1} onClick={windowSize < 769? handleFLip2 : null}>
 <ReactCardFlip isFlipped={isFlipped2} flipDirection="vertical">
 
@@ -150,13 +150,13 @@ const AboutUs = () => {
                 
     
 
-        <div className='flex w-full h-1/3 bg-alt items-center text-sm text-center p-7 md:p-4'>
+        <div className='flex w-full h-1/3 bg-alt items-center text-tiny text-center p-7 md:p-4'>
             'I have never been able to say I love my job until I started working with RBI. I feel heard, I feel involved and most of all I feel so happy in my role. I look forward to logging into work, each and every day. - Emilie Board, Influencer Executive'
             </div>
             
             </div>
 
-                <div className='flex w-full mt-6 md:mt-0 md:w-1/2 xl:text-sm font-light text-sm md:text-xs lg:text-tiny p-1 md:pl-4'>
+                <div className='flex w-full mt-6 md:mt-0 md:w-1/2 xl:text-sm font-light text-sm md:text-tiny lg:text-tiny p-1 md:pl-4'>
                 <p>With a combined 10+ years of marketing experience, RBI was established 
 by founders Lauren Cassidy and Lucy Harper in early 2020 and has been 
 growing ever since. Lauren and Lucy are both content creators and 
