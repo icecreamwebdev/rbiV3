@@ -4,9 +4,13 @@ import ReactCardFlip from 'react-card-flip';
 import debounce from 'lodash.debounce';
 import getWindowSize from '../../utils/GetWindowSize';
 import { useEffect } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faRepeat } from '@fortawesome/free-solid-svg-icons';
 
 
 const AboutUs = () => {
+
+    const flipIcon = <FontAwesomeIcon icon={faRepeat} />
 
 
     const [isFlipped1, setFlipped1] = useState(false)
@@ -72,7 +76,6 @@ const AboutUs = () => {
         <div className='flex w-full h-[250px]  mb-5'>
 
 
-        {console.log(windowSize)}
 
         <div className='flex w-full h-full bg-primary p-2 mr-2 justify-center' onMouseEnter={windowSize < 769? null : debouncedHandleMouseEnter}
       onMouseLeave={windowSize < 769? null : handlOnMouseLeave} onClick={windowSize < 769? handleFLip1 : null}>
@@ -81,11 +84,14 @@ const AboutUs = () => {
 
 <div className='flex w-full h-full justify-center' >
     <Image src='/laurenAbout.jpg' width='250' height='250' objectFit='cover'/>
+    <div className='absolute bottom-2 right-2 text-alt font-bold text-xl z-10 bg-primary p-2 rounded-full' >{flipIcon}</div>
+
     </div>
 
 
     <div className='flex w-full h-full justify-center' >
     <Image src='/laurenAbout.jpg' width='250' height='250' objectFit='cover'/>
+    
     <div className='absolute w-full h-full bg-alt text-white text-center justify-center flex-col items-center flex m-auto' >
         <h2 className='font-bold '>Lauren Cassidy</h2>
         <p className='font-light text-tiny md:text-tiny px-3'>Managing Director</p>
@@ -117,6 +123,7 @@ const AboutUs = () => {
 
 <div className='flex w-full h-full'  >
     <Image src='/lucyAbout.png' width='250' height='250' objectFit='cover'/>
+    <div className='absolute bottom-2 right-2 text-alt font-bold text-xl z-10 bg-primary p-2 rounded-full' >{flipIcon}</div>
   
     </div>
 
@@ -130,6 +137,8 @@ const AboutUs = () => {
     
     
     </div>
+  
+  
   
     </div>
 
