@@ -42,9 +42,8 @@ to work with, professional, and able to get the job done. RBI&#39;s talent has p
 we keep coming back for more integrations across our client portfolio!”"  imgSrc='' />
           </div>
           <div className='flex-col justify-center text-center h-100'>
-          <TestoItem brand='Manta Sleep' author='Lia' image='testo3.png' mainText="“The RBI team is fantastic to work with - they&#39;re friendly. responsive and always deliver at
-each stage of the campaign. I highly recommend working with RBI for all of your influencer
-marketing needs.”"  imgSrc='' />
+          <TestoItem brand='Manta Sleep' author='Lia' image='testo3.png' mainText="“Working with RBI has been such a pleasant, seamless experience. Their roster is excellent
+and they&#39;re so incredibly easy to work with”"  imgSrc='' />
           </div>
           <div className='flex-col justify-center text-center h-100'>
           <TestoItem brand='Algebra Media' author='Eric' image='testo4.png' mainText="“RunByInfluencers are wonderful to work with. They keep the space exciting with their wide
