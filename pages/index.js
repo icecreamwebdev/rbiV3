@@ -22,6 +22,13 @@ export default function Home() {
     
    
     <div className='h-screen w-full'>
+      <Head>
+        <title>Run By Influencers</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta charset="UTF-8" />
+        <meta name="description" content="RBI Influencer and digital marketing agency homepage. Services include creating social media campaigns, managing talent and sourcing content creators." />
+        <meta name="keywords" content="agency influencer influencers digital social brands content creators" />
+      </Head>
       <HeroVideo videoSrc='homebackground.mp4' textArray={[
         " Create",
         " Source",

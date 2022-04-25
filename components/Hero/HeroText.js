@@ -10,9 +10,12 @@ const HeroText = ({textArray, page}) => {
     const TEXTS = textArray;
     const arrayLength = TEXTS.length;
 
-    const speed = page == '/about' ? 150 : 150
-    const sizing = page == '/about' ? 'text-2xl' : 'text-4xl'
+    const weAre = (page == '/about') || (page == '/influencers')
 
+    const speed = weAre ? 150 : 150
+    const sizing = weAre  ? 'text-2xl' : 'text-4xl'
+
+   
 
       const [index, setIndex] = React.useState(0);
 
@@ -32,7 +35,7 @@ const HeroText = ({textArray, page}) => {
       }, []);
     
 
-      const rotatingText =  <div><span className='font-light text-white uppercase'>{page != '/about' ? 'We' : 'We Are'}</span>
+      const rotatingText =  <div><span className='font-light text-white uppercase'>{!weAre ? 'We' : 'We Are'}</span>
       <span className='text-alt pl-2 leading-tight drop-shadow-sm font-semibold uppercase'>{TEXTS[index]}</span></div>
       const stillText =  <div><span className='font-light text-white uppercase'>We are</span>
       <span className='text-alt pl-2 leading-tight drop-shadow-sm font-semibold uppercase'>RBI</span></div>

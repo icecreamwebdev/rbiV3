@@ -26,7 +26,7 @@ const Faqs = () => {
             <span className='w-[9px] h-[9px] md:w-[10px] md:h-[10px] rounded-full bg-alt mr-3 font-base'></span>Non-Exclusive
         </div>
 
-         <p className='text-left font-light text-xs md:text-tiny flex justify-center'>You can choose to be exclusive or non-exclujsive. 
+         <p className='text-left font-light text-xs md:text-tiny flex justify-center'>You can choose to be exclusive or non-exclusive. 
 If you are non-exclusive you can continue to source 
 and acquire sponsorships externally and we will include 
 you on our roster to clients for upcoming campaigns that 
@@ -61,7 +61,7 @@ and we would handle all of your email enquires on your behalf.
 
          <p className='text-left font-light text-xs md:text-tiny flex justify-center'>Whether you’re exclusive or non-exclusive, we handle
 all of the contracts and invoices on your behalf so you
-can focus on creating conent rather than worrying about
+can focus on creating content rather than worrying about
 admin. If you need your own contract or invoice for 
 filing purposes we can provide you with these documents
 upon request.
@@ -83,7 +83,7 @@ work with you without having to commit to a full year
 (many agencies require a full year contract). If you felt 
 after this 6 month period that you would rather be 
 non-exclusive then you’d be able to change to the 
-non-exclusive option after 6 months. You’ll be provided 
+non-exclusive option. You’ll be provided 
 with your own RBI email address that would be listed as 
 a ‘business contact’ on your social media accounts.
 </p>

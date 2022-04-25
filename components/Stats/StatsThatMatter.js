@@ -50,7 +50,7 @@ on influencer marketing by 2022.
                     60% of millennials are more likely to 
 take advice from YouTube influencers 
 than traditional media personalities
-(source: variety)
+(source: Variety)
                     </p>
 </div>
 
@@ -62,7 +62,7 @@ than traditional media personalities
                     <p className='text-center text-xs font-light p-2'>
                     Influencer marketing ROI is 11x greater 
 than banner ads
-(source: convince&convert)
+(source: Convince&Convert)
                     </p>
 </div>
 
@@ -76,7 +76,7 @@ than banner ads
                     80% of consumers have purchased 
 something via an influencer 
 recommendation
-(source: rakuten)
+(source: Rakuten)
                     </p>
 </div>
 

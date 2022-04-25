@@ -73,7 +73,7 @@ Privy to a ‘lick’ of wine if mum accidentally leaves in reach.
             <div className='flex-col mt-3'>
             <h2 className='font-semibold uppercase'>LINDI</h2>
             <p className='text-sm font-base'>Director of Playtime</p>
-            <p className='text-tiny font-light mt-2 text-gray-300'>Responsible for ensuring all staff take a break for playtime,<br />
+            <p className='text-tiny font-light mt-2 text-gray-300'>Responsible for ensuring all staff take a break for playtime.<br />
 Excellent at squeaking toys.<br />
 Will eat anything and everything in sight.
 

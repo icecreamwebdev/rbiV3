@@ -23,7 +23,7 @@ const Footer = () => {
 <div className='flex flex-wrap font-light'>
             <div className='flex-col flex p-2  lg:p-6  md:w-1/5 w-full text-white md:text-left text-center '>
                 <h2 className='mb-4 font-base uppercase text-sm border-b border-gray-600 md:w-40 pb-2 w-full '>About Us</h2>
-                <p>RBI is a digitial marketing and influencer management agency. Creating clickable content for brands since 2020, RBI provides full creative campaign oversight, as well as roviding an influencer only sourcing service.</p>
+                <p>RBI is a digital marketing and influencer management agency. Creating clickable content for brands since 2020, RBI provides full creative campaign oversight, as well as providing an influencer only sourcing service.</p>
                 </div>
 
                 {/* footer item 2 */}
@@ -44,7 +44,7 @@ const Footer = () => {
                         <h2 className='mb-4 uppercase text-sm font-base border-b border-gray-600 pb-2'>Get in touch</h2>
                         <ul>
 
-                            <li className='mb-1'><span className='text-gray-400'>{locate}</span><span className='text-gray-400 ml-2'> Address:</span> International House, Holbourn Viaduct, London</li>
+                            <li className='mb-1'><span className='text-gray-400'>{locate}</span><span className='text-gray-400 ml-2'> Address:</span> International House, Holborn Viaduct, London, EC1A 2BN</li>
                             <li className='mb-1'><span className='text-gray-400'>{phone}</span><span className='text-gray-400 ml-2'>Phone:</span>(+44) 2074382009</li>
                             <li className='mb-1 flex-wrap text-xtiny md:text-mini lg:text-xtiny'><span className='text-gray-400'>{email}</span><span className='text-gray-400 ml-2'> Email:</span>hello@runbyinfluencers.com</li>
 

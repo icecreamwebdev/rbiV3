@@ -38,7 +38,7 @@ to keep things simple and help you make more from your passion.</p>
                    2.
                </div>
 
-                <p className='text-left font-light text-xs md:text-tiny flex justify-center'>If you work with us non-exclusively we’ll start by suggesting you to our existing brands. If you work with us exclusively we’ll discuss your channel goals and reach out to your dream brands to seek our partnership opportunities.</p>
+                <p className='text-left font-light text-xs md:text-tiny flex justify-center'>If you work with us non-exclusively we’ll start by suggesting you to our existing brands. If you work with us exclusively we’ll discuss your channel goals and reach out to your dream brands to seek out partnership opportunities.</p>
        </div>
        </div>
 

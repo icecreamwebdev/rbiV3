@@ -11,7 +11,7 @@ const Services = () => {
             <div className='w-20 flex justfiy-center h-0.5 rounded bg-gray-300 m-auto mt-0 pt-0'></div>
 
             <p className='text-center text-sm text-primary opacity-100 font-light mt-5'>RBI is a digital marketing and influencer management agency.<br />
-From creating a clickable social campagn to sourcing talent, RBI has you covered.</p>
+From creating a clickable social campaign to sourcing talent, RBI has you covered.</p>
 
 
 

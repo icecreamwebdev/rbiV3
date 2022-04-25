@@ -126,7 +126,7 @@ const ContactForm = () => {
                             {/* <div className='flex items-center w-5 h-5 text-gray-500 mr-4 rounded-full'>{clock}</div> */}
 
                             <div className='flex-col items-center text-center p-0 m-0 text-xs font-light'>
-                            <p><span className='font-semibold'>Monday</span> - Friday: 9am to 6pm GMT </p>
+                            <p><span className='font-semibold'>Monday - Friday:</span> 9am to 6pm GMT </p>
                             <p><span className='font-semibold'>Saturday:</span> Urgent enquiries only</p>
                             <p><span className='font-semibold'>Sunday:</span> Urgent enquiries only</p>
                             </div>

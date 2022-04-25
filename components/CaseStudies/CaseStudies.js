@@ -41,8 +41,8 @@ Check out some of our favourites below.</p>
 
                         <ul className='font-light text-xs mt-4 list-disc  pl-4 text-left w-full'>
 
-                            <li>Platforms: Youtube (with instagram story accompaniment)</li>
-                            <li>Ad style: pre-roll, mid-roll & instagram story</li>
+                            <li>Platforms: Youtube (with Instagram story accompaniment)</li>
+                            <li>Ad style: pre-roll, mid-roll & Instagram story</li>
                             <li>7 influencer activations</li>
                             <li>Campaign results: <br /><br /> <div className=' text-right'><ul >
                                 
@@ -77,7 +77,7 @@ Check out some of our favourites below.</p>
     <div className='md:w-5/12 h-full flex flex-col items-center justify-center bg-primary text-white p-10 '>
 
         <h2 className='flex mb-3 uppercase items-center text-xl justify-center'>CLIENT: <span className='flex items-center pl-2'><Image src='/brands/brand2.png' width='50' height='25' objectFit='contain'  /></span></h2>
-        <p className='font-semibold text-center text-tiny'>Campaign goal: Lomg term brand awareness, under $25CPM goal & drive sign-ups</p>
+        <p className='font-semibold text-center text-tiny'>Campaign goal: Long term brand awareness, under $25CPM goal & drive sign-ups</p>
 
         <ul className='font-light text-xs mt-4 list-disc  pl-4 text-left w-full'>
 
@@ -119,7 +119,7 @@ Check out some of our favourites below.</p>
 
 <div className='md:w-5/12 h-full flex flex-col items-center justify-center bg-primary text-white p-10 '>
 
-<h2 className='flex mb-3 uppercase items-center text-xl justify-center'>CLIENT: <span className='flex items-center pl-2'><Image src='/brands/brand19.png' width='90' height='20' objectFit='contain'  /></span></h2>
+<h2 className='flex mb-3 uppercase items-center text-xl justify-center'>CLIENT: <span className='flex items-center pl-2  mt-[-4px]'><Image src='/brands/brand19.png' width='90' height='20' objectFit='contain'  /></span></h2>
 <p className='font-semibold text-center text-tiny'>Campaign goal: Showcase Liberty 3 Pro earbuds using ASMR micro-influencers</p>
 
 <ul className='font-light text-xs mt-4 list-disc  pl-4 text-left w-full'>

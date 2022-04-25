@@ -6,6 +6,7 @@ import Image from 'next/image';
 import imageUrlBuilder from '@sanity/image-url'
 import Footer from '../../components/Footer/Footer';
 import Policies from '../../components/Policies/Policies';
+import Head from 'next/head';
 
 const blog = ({posts}) => {
 
@@ -17,6 +18,13 @@ const blog = ({posts}) => {
     console.log(posts[0])
     return (
       <>
+      <Head>
+        <title>Run By Influencers - Blog</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta charset="UTF-8" />
+        <meta name="description" content="Influencer and digital marketing blog. Exploring different topics in the world of social media. " />
+        <meta name="keywords" content="influencer content agency blog" />
+      </Head>
         <div className='flex w-full justify-center p-7' > 
         
 
