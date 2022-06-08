@@ -56,7 +56,7 @@ const Footer = () => {
                         <div className='flex-col p-2 pr-0 flex lg:p-6  grow md:w-1/4 m:min-w-1/4 w-full text-white shrink-0 md:text-left text-center  md:mt-0 mt-7'>
                         <h2 className='mb-4 uppercase text-sm border-b font-base border-gray-600 pb-2'>Insta feed</h2>
                             
-                            <FooterFeed />
+                            {/* <FooterFeed /> */}
 
                             
                             </div>
