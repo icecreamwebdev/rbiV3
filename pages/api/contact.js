@@ -22,8 +22,7 @@ export default function handler(req, res) {
 
       const mailData = {
         from: 'rbiwebsitecontactform@gmail.com',
-        // to: 'hello@runbyinfluencers.com',
-        to: 'gregorc96@gmail.com',
+        to: 'hello@runbyinfluencers.com',
         subject: `Website message from ${req.body.name}`,
         text: req.body.message + " | Sent from: " + req.body.email,
         html: `<div>RBI client message: ${req.body.message}</div><p>RBI client name:
