@@ -7,10 +7,10 @@
 
   width:100%;
   height:58%;
-  background-image: url('../public/safetyBackground.jpg');
-  background-repeat: no-repeat;
+  /* background-image: url('../public/safetyBackground.jpg'); */
+  /* background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center; */
   overflow: hidden;
   z-index:1000;
 }
@@ -54,10 +54,10 @@
 
   width:100%;
   height:58%;
-  background-image: url('../public/aboutSafety.png');
+  /* background-image: url('../public/aboutSafety.png');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center; */
   overflow: hidden;
   z-index:1000;
 }
@@ -88,10 +88,10 @@
 
     width:100%;
   height:58%;
-  background-image: url('../public/caseStudiesBackground.png');
+  /* background-image: url('../public/caseStudiesBackground.png');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center; */
   overflow: hidden;
   z-index:1000;
   }
@@ -106,10 +106,10 @@
   .influencersOuter{
     width:100%;
   height:58%;
-  background-image: url('../public/influencerBackground.png');
+  /* background-image: url('../public/influencerBackground.png');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center; */
   overflow: hidden;
   z-index:1000;
   }
