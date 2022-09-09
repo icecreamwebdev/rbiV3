@@ -44,7 +44,9 @@ return (
                    
 {/* </video> */}
 
+{page != '/' &&
 <HeroText loaded={hasLoaded} textArray={textArray} page={page}/>
+}
 
 </>
 

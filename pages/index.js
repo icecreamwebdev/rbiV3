@@ -29,7 +29,7 @@ export default function Home() {
         <meta name="description" content="RBI Influencer and digital marketing agency homepage. Services include creating social media campaigns, managing talent and sourcing content creators." />
         <meta name="keywords" content="agency influencer influencers digital social brands content creators" />
       </Head>
-      <HeroVideo videoSrc='homebackground.mp4' textArray={[
+      <HeroVideo videoSrc='homebacground.mp4' textArray={[
         " Create",
         " Source",
         " Influence",
