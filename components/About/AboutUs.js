@@ -151,7 +151,7 @@ const AboutUs = () => {
     
 
         <div className='flex w-full h-1/3 bg-alt items-center text-tiny text-center p-7 md:p-4'>
-            'I have never been able to say I love my job until I started working with RBI. I feel heard, I feel involved and most of all I feel so happy in my role. I look forward to logging into work, each and every day.' - Emilie Board, Influencer Executive
+            'I have never been able to say I love my job until I started working with RBI. I feel heard, I feel involved and most of all I feel so happy in my role. I look forward to logging into work, each and every day.' - Emilie B, Influencer Executive
             </div>
             
             </div>
