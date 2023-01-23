@@ -12,7 +12,7 @@ const privacy = () => {
 <h1 className='text-2xl flex justify-center font-base uppercase h-min pb-3 pt-5'>privacy policy</h1>
     <div className='w-20 flex justfiy-center h-0.5 rounded bg-gray-300 m-auto mt-0 pt-0'></div>
          <div className=' justify-center w-full privacy mt-10 text-sm md:text-base'> 
-<p className='font-bold'>RBI Media Limited 2022</p>
+<p className='font-bold'>RBI Media Limited 2023</p>
 <p>
 RBI Media Limited, referred to as RBI (or we/us/our) deals with a number of influencers
 through various social channels, that we may connect to our brands who require their

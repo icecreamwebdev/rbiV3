@@ -8,7 +8,7 @@ const Policies = () => {
         <div className='max-w-2xl w-full md:flex-row w-full px-7 py-5 flex flex-col justify-between'>
 
             <p className='text-white text-center'>
-                RBI Media Limited | 2022
+                RBI Media Limited | 2023
             </p>
 
             <ul className='flex text-gray-400 font-light pt-3 md:pt-0 justify-center font-light text-sm'>
