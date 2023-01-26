@@ -8,6 +8,7 @@ const HeroVideo = ({videoSrc, textArray}) => {
 
   const router = useRouter();
   const page = router.pathname;
+  console.log(textArray)
 
 
 const [hasLoaded, setLoaded] = useState(false)
@@ -15,6 +16,7 @@ const [hasLoaded, setLoaded] = useState(false)
 const classItem = page == '/' ? 'videoOuter' : `${page.substring(1)}Outer`
 
 return (
+
 <>
 
 {/* <div className='videoOuter'
@@ -44,7 +46,7 @@ return (
                    
 {/* </video> */}
 
-{page != '/' &&
+{
 <HeroText loaded={hasLoaded} textArray={textArray} page={page}/>
 }
 

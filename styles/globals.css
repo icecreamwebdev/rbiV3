@@ -36,7 +36,7 @@
 @media only screen and (max-width: 1024px) {
   .videoOuter{
 
-    background-image: url('../public/queen2.jpg');
+    background-image: url('../public/safetyBackground.jpg'); 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
