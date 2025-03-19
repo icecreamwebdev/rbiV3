@@ -44,7 +44,7 @@ const Footer = () => {
                         <h2 className='mb-4 uppercase text-sm font-base border-b border-gray-600 pb-2'>Get in touch</h2>
                         <ul>
 
-                            <li className='mb-1'><span className='text-gray-400'>{locate}</span><span className='text-gray-400 ml-2'> Address:</span> International House, Holborn Viaduct, London, EC1A 2BN</li>
+                            <li className='mb-1'><span className='text-gray-400'>{locate}</span><span className='text-gray-400 ml-2'> Address:</span> Bartle House, 9 Oxford Court, Manchester, M2 3WQ, United Kingdom </li>
                             <li className='mb-1'><span className='text-gray-400'>{phone}</span><span className='text-gray-400 ml-2'>Phone:</span>(+44) 2074382009</li>
                             <li className='mb-1 flex-wrap text-xtiny md:text-mini lg:text-xtiny'><span className='text-gray-400'>{email}</span><span className='text-gray-400 ml-2'> Email:</span>hello@runbyinfluencers.com</li>
 
